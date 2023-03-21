@@ -8,813 +8,470 @@
 
 /*PÁGINA PRINCIPAL*/
 
-body{
-    background-color: white;
+.navbar{
+    background-color: #4592af;
+    box-shadow: 0px 0px 5px rgb(114, 114, 114);
+}
+
+.nav-link{
+    color: #bbff00;
+}
+
+.navbar-brand{
+    color: black;
+    font-weight: 700;
 }
 
 header{
-    background-image: url("../assets/img/fondo-grande.png");
-    height: 900px;
+    background-image: url(../assets/img/fondo-rustico.png);
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(12, 100px);
+    grid-template-rows: repeat(4, 50px);
+    box-shadow: 0px 0px 5px rgb(114, 114, 114);
 }
 
 header h1{
+    background-color: rgb(0, 0, 0);
+    height: 6rem;
+    width: 33rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color:#4592af; 
+    box-shadow: 6px 5px 1px #4592af; 
     font-size: 70px;
-    text-shadow: 3px 3px 1px black;
-    color: #DBFF00;
-    font-style: italic;
+    color: #bbff00;
     font-family: 'Michroma', sans-serif;
     display: grid;
     grid-column-start: 8;
-    grid-row-start: 3;
+    grid-row-start: 2;
 }
 
-header h2{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Michroma', sans-serif;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-    color: #000000;
-    width: 300px;
-    height: 45px;
-    display: grid;
-    grid-column-start: 9;
-    grid-row-start: 4;
-}
-
-header nav{
-    background-color:#4593af;
-    width: 1903px;
-    height: 50px;
-    word-spacing: 5rem;
-    grid-row-start: 6;
-    grid-row-end: 12;
-    display: grid;
-    grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(1, 50px);
-}
-
-header nav ul{
-    word-spacing: 5rem;
-    grid-column-start: 7;
-    grid-column-end: 12;
-    width: 800px;
-    padding-top: 0.5rem;
-}
-
-.button-1{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
-}
-
-.button-1:hover{
-    color: rgb(243, 178, 0);
-    font-size: 20px;
-}
-
-.button-2{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
-}
-
-.button-2:hover{
-    color: rgb(243, 178, 0);
-    font-size: 20px;
-}
-
-.button-3{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
-}
-
-.button-3:hover{
-    color: rgb(243, 178, 0);
-    font-size: 20px;
-}
-
-.button-4{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
-}
-
-.button-4:hover{
-    color: rgb(243, 178, 0);
-    font-size: 20px;
+.carousel{
+    box-shadow: 0px 0px 5px black;
+    border:#000000;    
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #0c213f;
 }
 
 .quienes-somos{
-    display: grid;
-    grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(12, 100px);
+    padding: 50px 130px 50px 700px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background-image: url(../assets/img/fondo-rz.png);
 }
 
-.quienes-somos h3{
+.accordion-body{
+    font-size: 20px;
     font-family: 'Prompt', sans-serif;
-    font-size: 50px;
-    text-shadow: 2px 2px 1px #DBFF00;
-    text-align: center;
-    height: 5rem;
-    width: 500px;
-    grid-column-start: 8;
-    grid-row-start: 7;
 }
 
-.quienes-somos p{
+.accordion-button{
+    font-size: 20px;
+    background-color: #4593af41;
+    padding-left: 1rem;
     font-family: 'Prompt', sans-serif;
-    font-size: 25px;
-    height: 300px;
-    text-decoration: solid;
-    text-align: center;
-    width: 900px;
-    font-weight: bold;
-    display: grid;
-    grid-row-start: 8;
-    grid-column-start: 6;
 }
 
-.consejos-cuidado{
-    display: grid;
-    grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(1, 50px);
-}
-
-.consejos-cuidado h2{
-    font-family: 'Prompt', sans-serif;
-    font-size: 25px;
-    height: 50px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
-    text-align: center;
-    padding: 5px 0px 0px 0px;
-    width: 1903px;
-    background-color:#4593af;
-    display: grid;
-}
-
-main{
-    background-image: url("../assets/img/fondo-celular.png");
-    background-repeat: no-repeat;
-}
-
-.cuidado-bateria{
-    display: grid;
-    grid-template-columns: repeat(12, 150px);
-    grid-template-rows: repeat(12, 50px);
-}
-
-.bateria-icon{
-    display: grid;
-    background-color: #4592af;
+.footer-index{
+    background-color: #4593af65;
     height: 150px;
-    width: 200px;
-    height: 200px;
-    margin-left: 850px;
-    margin-top: 50px;
-    padding: 25px 0px 0px 30px;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 0px 0px 15px black;
-    border-radius: 50%;
-    display: block;
+    line-height: 20px;
+    font-weight: bold;
+    display: flex;
 }
 
-.cuidado-bateria h2{
-    font-family: 'Prompt', sans-serif;
-    height: 50px;
-    width: 420px;
-    font-size: 25px;
-    text-align: center;
-    padding: 25px 0px 0px 0px;
-    grid-column-start: 6;
-    grid-column-end: 12;
-    grid-row-start: 6;
-    text-decoration:underline;
-    text-decoration-style: double;
+.informacion-footer{
+    padding: 30px 0px 0px 200px;
 }
 
-.cuidado-bateria ol{
-    font-family: 'Prompt', sans-serif;
+.footer-nav{
+    padding: 55px 0px 0px 800px;
+    text-shadow: 1px 1px 1px black;
     font-size: 20px;
-    grid-column-start: 3;
-    grid-column-end: 12;
-    grid-row-start: 8;
-    text-align: center;
 }
-
-.telefono-icon{
-    background-color: #4592af;
-    width: 200px;
-    height: 200px;
-    margin-left: 850px;
-    margin-top: -100px;
-    padding: 25px 20px 20px 50px;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 0px 0px 15px black;
-    border-radius: 50%;
-}
-
-.cuidado-pantalla{
-    display: grid;
-    grid-template-columns: repeat(12, 150px);
-    grid-template-rows: repeat(7, 50px);
-}
-
-.cuidado-pantalla h2{
-    font-family: 'Prompt', sans-serif;
-    height: 50px;
-    width: 420px;
-    font-size: 25px;
-    text-align: center;
-    padding: 25px 0px 0px 0px;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 3;
-    text-decoration:underline;
-    text-decoration-style: double;
-}
-
-.cuidado-pantalla ol{
-    font-family: 'Prompt', sans-serif;
-    font-size: 20px;
-    grid-column-start: 3;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end: 8;
-    text-align: center;
-}
-
-.grid-instagram{
-    display: grid;
-    grid-template-columns: repeat(12, 150px);
-    grid-template-rows: repeat(4, 50px);
-}
-
-.grid-instagram h2{
-    font-family: 'Prompt', sans-serif;
-    height: 100px;
-    width: 600px;
-    grid-column-start: 6;
-}
-
-.instagram-link{
-    display: grid;
-    height: 160px;
-    grid-column-start: 5;
-    grid-row-start: 1;
-}
-
-.grid-footer{
-    display: grid;
-    grid-template-columns: repeat(12, 150px);
-    grid-template-rows: repeat(3, 50px);
-    background-color: #4592af;
-}
-
-.grid-footer p{
-    grid-column-start: 5;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    font-size: 20px;
-}  
 
 @media (max-width:768px){
-    header{
-        background-image: url("../assets/img/fondo-grande.png");
-        height: 600px;
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
-        background-position: right;
-    }
-    header h1{
-        font-size: 40px;
-        text-shadow: 3px 3px 1px black;
-        color: #DBFF00;
-        font-style: italic;
-        font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 6;
-        grid-row-start: 3;
-    }
-    header h2{
-        font-size: 15px;
-        text-align: center;
-        font-family: 'Michroma', sans-serif;
-        text-shadow: 1px 1px 1px rgb(255, 255, 255);
-        color: #000000;
-        width: 300px;
-        height: 45px;
-        display: grid;
-        grid-column-start: 6;
-        grid-row-start: 4;
-    }
-    header nav{
-        background-color:#4593af;
+        
+    .navbar{
         width: 768px;
-        height: 40px;
-        word-spacing: 5rem;
-        grid-row-start: 6;
-        grid-row-end: 12;
-        display: grid;
-        grid-template-columns: repeat(12, 100px);
-        grid-template-rows: repeat(1, 50px);
-    }
-    header nav ul{
-        word-spacing: 4rem;
-        grid-column-start: 2;
-        grid-column-end: 12;
-        width: 768px;
-    }
-    .button-1{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-1:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-2{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-2:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-3{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-3:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-4{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-4:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .quienes-somos{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
-    }
-    .quienes-somos h3{
-        font-family: 'Prompt', sans-serif;
-        font-size: 30px;
-        text-shadow: 1px 2px 1px #DBFF00;
-        text-align: center;
-        height: 2rem;
-        width: 400px;
-        grid-column-start: 5;
-        grid-row-start: 8;
-    }
-    .quienes-somos p{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        height: 130px;
-        text-decoration: solid;
-        text-align: center;
-        width: 768px;
-        font-weight: bold;
-        display: grid;
-        grid-row-start: 9;
-        grid-column-start: 1;
-        background-color: rgba(255, 255, 255, 0.233);
-    }
-    .consejos-cuidado{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(1, 50px);
-    }
-    .consejos-cuidado h2{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        height: 50px;
-        width: 768px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-        text-align: center;
-        padding: 8px 0px 0px 0px;
-        background-color:#4593af;
-        display: grid;
-    }
-    main{
-        background-image: url("../assets/img/fondo-celular.png");
-        background-repeat: no-repeat;
-        width: 768px;
-    }
-    .cuidado-bateria{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
-    }
-    .bateria-icon{
-        display: grid;
         background-color: #4592af;
-        height: 150px;
-        width: 200px;
-        height: 200px;
-        margin-left: 15rem;
-        margin-top: 30px;
-        padding: 25px 0px 0px 30px;
-        border-style: solid;
-        border-color: black;
-        box-shadow: 0px 0px 15px black;
-        border-radius: 50%;
-        display: block;
-        grid-column-start: 2;
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-    .cuidado-bateria h2{
-        font-family: 'Prompt', sans-serif;
+
+    .nav-link{
+        width: 768px;
+        color: #bbff00;
+    }
+    
+    .navbar-brand{
         height: 30px;
-        width: 420px;
-        font-size: 25px;
-        text-align: center;
-        grid-column-start: 5;
-        grid-column-end: 12;
-        grid-row-start: 5;
-        padding-top: 30px;
-        text-decoration:underline;
-        text-decoration-style: double;
-    }
-    .cuidado-bateria ol{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        width: 420px;
-        height: 200px;
-        grid-column-start: 5;
-        grid-column-end: 12;
-        grid-row-start: 7;
-        text-align: center;
-    }
-    .telefono-icon{
-        background-color: #4592af;
-        width: 200px;
-        height: 200px;
-        margin-left: 18rem;
-        margin-top: -100px;
-        padding: 25px 20px 20px 50px;
-        border-style: solid;
-        border-color: black;
-        box-shadow: 0px 0px 15px black;
-        border-radius: 50%;
-    }
-    .cuidado-pantalla{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(10, 50px);
-    }
-    .cuidado-pantalla h2{
-        font-family: 'Prompt', sans-serif;
-        height: 50px;
-        width: 420px;
-        font-size: 30px;
-        text-align: center;
-        padding: 25px 0px 0px 0px;
-        grid-column-start: 5;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        text-decoration:underline;
-        text-decoration-style: double;
-    }
-    .cuidado-pantalla ol{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        grid-column-start: 6;
-        grid-column-end: 12;
-        grid-row-start: 5;
-        grid-row-end: 9;
-        text-align: center;
-    }
-    .grid-instagram{
-        display: grid;
-        grid-template-columns: repeat(12, 150px);
-        grid-template-rows: repeat(12, 30px);
         width: 768px;
+        color: #bbff00;;
+        font-weight: 700;
     }
-    .grid-instagram h2{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
+    
+    header{
+        background-image: url(../assets/img/fondo-rustico.png);
+        background-color: white;
+        display: grid;
         height: 100px;
-        width: 300px;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 7;
+        grid-template-columns: repeat(6, 50px);
+        grid-template-rows: repeat(4, 25px);
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-    .instagram-link{
+    
+    header h1{
+        background-color: rgb(0, 0, 0);
+        height: 3rem;
+        width: 15rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color:#4592af; 
+        box-shadow: 3px 3px 1px #4592af; 
+        font-size: 30px;
+        color: #bbff00;
+        font-family: 'Michroma', sans-serif;
         display: grid;
-        height: 160px;
-        grid-column-start: 2;
-        grid-row-start: 7;
-    }
-    .grid-footer{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(3, 50px);
-        background-color: #4592af;
-        width: 768px;
-    }
-    .grid-footer p{
-        grid-column-start: 3;
-        grid-column-end: 14;
+        grid-column-start: 6;
         grid-row-start: 2;
+    }
+    
+    .carousel{
+        box-shadow: 0px 0px 5px black;
+        border:#000000;    
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #0c213f;
         font-size: 15px;
-    }  
+    }
+
+    .carousel-inner h5{
+        font-size: 15px;   
+    }
+    
+    .quienes-somos{
+        padding: 50px 150px 50px 150px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        background-image: url(../assets/img/fondo-rustico.png);
+    }
+    
+    .accordion-body{
+        font-size: 15px;
+        font-family: 'Prompt', sans-serif;
+    }
+    
+    .accordion-button{
+        font-size: 15px;
+        background-color: #4593af41;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+    
+    .footer-index{
+        background-color: #4593af65;
+        height: 200px;
+        line-height: 20px;
+        font-weight: bold;
+        display: flex;
+    }
+    
+    .informacion-footer{
+        padding: 30px 0px 0px 200px;
+    }
+    
+    .footer-nav{
+        padding: 55px 0px 0px 100px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
 }
 
-@media (max-width:375px){
+@media (max-width:425px){
+        
+    .navbar{
+        width: 425px;
+        background-color: #4592af;
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+
+    .nav-link{
+        width: 425px;
+        color: #bbff00;
+    }
+    
+    .navbar-brand{
+        height: 30px;
+        width: 425px;
+        color: #bbff00;;
+        font-weight: 700;
+    }
+    
     header{
-        background-image: url("../assets/img/fondo-grande.png");
+        background-image: url(../assets/img/fondo-rustico.png);
+        background-color: white;
+        display: grid;
+        height: 100px;
+        grid-template-columns: repeat(6, 25px);
+        grid-template-rows: repeat(4, 25px);
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    
+    header h1{
+        background-color: rgb(0, 0, 0);
+        height: 3rem;
+        width: 16rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color:#4592af; 
+        box-shadow: 3px 3px 1px #4592af; 
+        font-size: 33px;
+        color: #bbff00;
+        font-family: 'Michroma', sans-serif;
+        display: grid;
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+    
+    .carousel{
+        box-shadow: 0px 0px 5px black;
+        border:#000000;    
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #0c213f;
+        font-size: 15px;
+    }
+
+    .carousel-inner h5{
+        font-size: 15px;   
+    }
+    
+    .quienes-somos{
+        padding: 50px 50px 50px 50px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        background-image: url(../assets/img/fondo-rustico.png);
+    }
+    
+    .accordion-body{
+        font-size: 15px;
+        font-family: 'Prompt', sans-serif;
+    }
+    
+    .accordion-button{
+        font-size: 15px;
+        background-color: #4593af41;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+    
+    .footer-index{
+        background-color: #4593af65;
+        height: 200px;
+        line-height: 20px;
+        font-weight: bold;
+        display: flex;
+    }
+    
+    .informacion-footer{
+        padding: 30px 0px 0px 50px;
+    }
+    
+    .footer-nav{
+        padding: 45px 0px 0px 30px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+}
+
+    @media (max-width:375px){
+
+        .navbar{
+            width: 375px;
+            background-color: #4592af;
+            box-shadow: 0px 0px 5px rgb(114, 114, 114);
+        }
+        
+        .nav-link{
+            color: #bbff00;
+            font-size: 15px;
+        }
+        
+        .navbar-brand{
+            color: #bbff00;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        
+        header{
+            background-image: url(../assets/img/fondo-rustico.png);
+            background-color: white;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 50px);
+            grid-template-rows: repeat(4, 25px);
+            box-shadow: 0px 0px 5px rgb(114, 114, 114);
+        }
+        
+        header h1{
+            background-color: rgb(0, 0, 0);
+            height: 2.8rem;
+            width: 14.5rem;
+            border-radius: 1rem;
+            border-style: solid;
+            border-color:#4592af; 
+            box-shadow: 6px 5px 1px #4592af; 
+            font-size: 30px;
+            color: #bbff00;
+            font-family: 'Michroma', sans-serif;
+            display: grid;
+            grid-column-start: 2;
+            grid-row-start:2;
+        }
+        
+        .carousel{
+            box-shadow: 0px 0px 5px black;
+            border:#000000;    
+            padding: 1rem 1rem 1rem 1rem;
+            background-color: #0c213f;
+        }
+        
+        .quienes-somos{
+            padding: 50px 130px 50px 20px;
+            box-shadow: 0px 0px 5px rgb(0, 0, 0);
+            background-image: url(../assets/img/fondo-rustico.png);
+        }
+        
+        .accordion-body{
+            font-size: 20px;
+            font-family: 'Prompt', sans-serif;
+            width: 280px;
+            background-image: url(../assets/img/fondo-rustico.png);
+        }
+        
+        .accordion-button{
+            background-image: url(../assets/img/fondo-rustico.png);
+            font-size: 15px;
+            width: 280px;
+            background-color: #4593af41;
+            padding-left: 1rem;
+            font-family: 'Prompt', sans-serif;
+        }
+        
+        .footer-index{
+            background-color: #4593af65;
+            height: 150px;
+            line-height: 0.7rem;
+            font-size: 12px;
+            font-weight: bold;
+            display: flex;
+        }
+        
+        .informacion-footer{
+            padding: 30px 0px 0px 50px;
+        }
+        
+        .footer-nav{
+            padding: 30px 0px 0px 10px;
+            text-shadow: 1px 1px 1px black;
+            font-size: 20px;
+        }
+    
+    }
+
+@media (max-width:320px){
+
+    .navbar{
+        width: 320px;
+        background-color: #4592af;
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    
+    .nav-link{
+        color: #bbff00;
+        font-size: 15px;
+    }
+    
+    .navbar-brand{
+        color: #bbff00;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    
+    header{
+        background-image: url(../assets/img/fondo-rustico.png);
+        background-color: white;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
-        background-position: center;
+        grid-template-columns: repeat(4, 50px);
+        grid-template-rows: repeat(4, 25px);
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
+    
     header h1{
-        font-size: 65px;
-        text-shadow: 3px 3px 1px black;
-        color: #DBFF00;
-        font-style: italic;
+        background-color: rgb(0, 0, 0);
+        height: 2.8rem;
+        width: 14.5rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color:#4592af; 
+        box-shadow: 6px 5px 1px #4592af; 
+        font-size: 30px;
+        color: #bbff00;
         font-family: 'Michroma', sans-serif;
         display: grid;
-        grid-column-start: 3;
-        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-start:2;
     }
-    header h2{
-        font-size: 25px;
-        text-align: center;
-        font-family: 'Michroma', sans-serif;
-        text-shadow: 1px 1px 1px rgb(255, 255, 255);
-        color: #000000;
-        width: 300px;
-        height: 45px;
-        display: grid;
-        grid-column-start: 5;
-        grid-row-start: 4;
+    
+    .carousel{
+        box-shadow: 0px 0px 5px black;
+        border:#000000;    
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #0c213f;
     }
-    header nav{
-        background-color:#4593af;
-        width: 375px;
-        height: 40px;
-        word-spacing: 3rem;
-        grid-row-start: 6;
-        grid-row-end: 12;
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(1, 50px);
-    }
-    header nav ul{
-        word-spacing: 0.5rem;
-        grid-column-start: 5;
-        grid-column-end: 12;
-        width: 375px;
-    }
-    .button-1{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-1:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-2{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-2:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-3{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-3:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
-    .button-4{
-        font-family: 'Michroma', sans-serif;
-        text-decoration: none;
-        font-size: 15px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-    }
-    .button-4:hover{
-        color: rgb(243, 178, 0);
-        font-size: 15px;
-    }
+    
     .quienes-somos{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
+        padding: 50px 130px 50px 20px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        background-image: url(../assets/img/fondo-rustico.png);
     }
-    .quienes-somos h3{
-        font-family: 'Prompt', sans-serif;
-        font-size: 30px;
-        text-shadow: 1px 2px 1px #DBFF00;
-        text-align: center;
-        height: 2rem;
-        width: 400px;
-        grid-column-start: 5;
-        grid-row-start: 8;
-    }
-    .quienes-somos p{
-        font-family: 'Prompt', sans-serif;
+    
+    .accordion-body{
         font-size: 20px;
-        height: 130px;
-        text-decoration: solid;
-        text-align: center;
-        width: 768px;
-        font-weight: bold;
-        display: grid;
-        grid-row-start: 9;
-        grid-column-start: 1;
-        background-color: rgba(255, 255, 255, 0.233);
-    }
-    .consejos-cuidado{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(1, 50px);
-    }
-    .consejos-cuidado h2{
         font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        height: 50px;
-        width: 768px;
-        color: #bbff00;
-        text-shadow: 2px 2px 1px black;
-        text-align: center;
-        padding: 8px 0px 0px 0px;
-        background-color:#4593af;
-        display: grid;
+        width: 280px;
+        background-image: url(../assets/img/fondo-rustico.png);
     }
-    main{
-        background-image: url("../assets/img/fondo-celular.png");
-        background-repeat: no-repeat;
-        width: 768px;
-    }
-    .cuidado-bateria{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(12, 50px);
-    }
-    .bateria-icon{
-        display: grid;
-        background-color: #4592af;
-        height: 150px;
-        width: 200px;
-        height: 200px;
-        margin-left: 15rem;
-        margin-top: 30px;
-        padding: 25px 0px 0px 30px;
-        border-style: solid;
-        border-color: black;
-        box-shadow: 0px 0px 15px black;
-        border-radius: 50%;
-        display: block;
-        grid-column-start: 2;
-    }
-    .cuidado-bateria h2{
-        font-family: 'Prompt', sans-serif;
-        height: 30px;
-        width: 420px;
-        font-size: 25px;
-        text-align: center;
-        grid-column-start: 5;
-        grid-column-end: 12;
-        grid-row-start: 5;
-        padding-top: 30px;
-        text-decoration:underline;
-        text-decoration-style: double;
-    }
-    .cuidado-bateria ol{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        width: 420px;
-        height: 200px;
-        grid-column-start: 5;
-        grid-column-end: 12;
-        grid-row-start: 7;
-        text-align: center;
-    }
-    .telefono-icon{
-        background-color: #4592af;
-        width: 200px;
-        height: 200px;
-        margin-left: 18rem;
-        margin-top: -100px;
-        padding: 25px 20px 20px 50px;
-        border-style: solid;
-        border-color: black;
-        box-shadow: 0px 0px 15px black;
-        border-radius: 50%;
-    }
-    .cuidado-pantalla{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(10, 50px);
-    }
-    .cuidado-pantalla h2{
-        font-family: 'Prompt', sans-serif;
-        height: 50px;
-        width: 420px;
-        font-size: 30px;
-        text-align: center;
-        padding: 25px 0px 0px 0px;
-        grid-column-start: 5;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        text-decoration:underline;
-        text-decoration-style: double;
-    }
-    .cuidado-pantalla ol{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        grid-column-start: 6;
-        grid-column-end: 12;
-        grid-row-start: 5;
-        grid-row-end: 9;
-        text-align: center;
-    }
-    .grid-instagram{
-        display: grid;
-        grid-template-columns: repeat(12, 150px);
-        grid-template-rows: repeat(12, 30px);
-        width: 768px;
-    }
-    .grid-instagram h2{
-        font-family: 'Prompt', sans-serif;
-        font-size: 20px;
-        height: 100px;
-        width: 300px;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 7;
-    }
-    .instagram-link{
-        display: grid;
-        height: 160px;
-        grid-column-start: 2;
-        grid-row-start: 7;
-    }
-    .grid-footer{
-        display: grid;
-        grid-template-columns: repeat(12, 50px);
-        grid-template-rows: repeat(3, 50px);
-        background-color: #4592af;
-        width: 768px;
-    }
-    .grid-footer p{
-        grid-column-start: 3;
-        grid-column-end: 14;
-        grid-row-start: 2;
+    
+    .accordion-button{
+        background-image: url(../assets/img/fondo-rustico.png);
         font-size: 15px;
-    }  
+        width: 280px;
+        background-color: #4593af41;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+    
+    .footer-index{
+        background-color: #4593af65;
+        height: 150px;
+        line-height: 0.7rem;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+    }
+    
+    .informacion-footer{
+        padding: 30px 0px 0px 50px;
+    }
+    
+    .footer-nav{
+        padding: 30px 0px 0px 10px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+
 }
 
 /* CONTACTANOS */
+
 
 .body-contacto{
     background-image: url("../assets/img/fondo-planeta.png");
@@ -824,14 +481,21 @@ main{
 
 .body-contacto h1{
     background-color:#4592af;
-    height: 70px;
+    height: 50px;
     text-align: center;
     display: grid;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 3px 3px 1px black;
     color: #DBFF00;
     font-style: italic;
     font-family: 'Michroma', sans-serif;
+}
+
+.datos-contacto{
+    height: 32rem;
+    width: 800px;
+    padding: 150px 0px 0px 0px;
+    color:#DBFF00;
 }
 
 .mensaje-contacto{
@@ -1156,4 +820,98 @@ main{
 .android-icon{
     grid-column-start: 12;
     grid-row-start: 3;
+}
+
+/* NOSOTROS */
+
+.nosotros-titulo{
+    box-shadow: 0px 10px 20px rgb(160, 160, 160);
+}
+
+.nosotros-titulo h1{
+    font-size: 25px;
+    font-style: normal;
+    padding-top: 0.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.nosotros-subtitulo{
+    margin: 2rem 25rem 2rem 25rem;
+    box-shadow: 1px 1px 5px rgb(153, 153, 153);
+}
+
+.nosotros-subtitulo:hover{
+    box-shadow: 0px 0px 5px rgb(208, 255, 0);
+}
+
+.nosotros-subtitulo h2{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 5rem;
+    padding: 15px 0px 0px 0px;
+    background-color: #6d6d6d46;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.body-nosotros{
+    display: grid;
+    grid-template-columns: repeat(12, 600px);
+    grid-template-rows: repeat(5, 100px);
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor .card{
+    width: 300px;
+    height: 440px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.212);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 16px rgba(70, 70, 70, 0.205);
+}
+
+.contenedor .card img{
+    width: 300px;
+    height: 250px;
+}
+
+.contenedor .card h4{
+    font-weight: 600;
+}
+
+.contenedor .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.body-nosotros-2{
+    display: grid;
+    grid-template-columns: repeat(12, 600px);
+    grid-template-rows: repeat(5, 100px);
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
 }
