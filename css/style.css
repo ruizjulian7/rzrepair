@@ -90,26 +90,23 @@ header h1{
     font-size: 20px;
 }
 
-@media (max-width:768px){
+@media (max-width:1440px){
         
     .navbar{
-        width: 768px;
+        width: 1440px;
         background-color: #4592af;
         box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-
     .nav-link{
-        width: 768px;
+        width: 1440px;
         color: #bbff00;
     }
-    
     .navbar-brand{
-        height: 30px;
-        width: 768px;
+        height: 40px;
+        width: 1440px;
         color: #bbff00;;
-        font-weight: 700;
+        font-weight: 500;
     }
-    
     header{
         background-image: url(../assets/img/fondo-rustico.png);
         background-color: white;
@@ -119,7 +116,6 @@ header h1{
         grid-template-rows: repeat(4, 25px);
         box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-    
     header h1{
         background-color: rgb(0, 0, 0);
         height: 3rem;
@@ -135,7 +131,6 @@ header h1{
         grid-column-start: 6;
         grid-row-start: 2;
     }
-    
     .carousel{
         box-shadow: 0px 0px 5px black;
         border:#000000;    
@@ -143,29 +138,24 @@ header h1{
         background-color: #0c213f;
         font-size: 15px;
     }
-
     .carousel-inner h5{
         font-size: 15px;   
     }
-    
     .quienes-somos{
         padding: 50px 150px 50px 150px;
         box-shadow: 0px 0px 5px rgb(0, 0, 0);
         background-image: url(../assets/img/fondo-rustico.png);
     }
-    
     .accordion-body{
         font-size: 15px;
         font-family: 'Prompt', sans-serif;
     }
-    
     .accordion-button{
         font-size: 15px;
         background-color: #4593af41;
         padding-left: 1rem;
         font-family: 'Prompt', sans-serif;
     }
-    
     .footer-index{
         background-color: #4593af65;
         height: 200px;
@@ -173,11 +163,92 @@ header h1{
         font-weight: bold;
         display: flex;
     }
-    
     .informacion-footer{
         padding: 30px 0px 0px 200px;
     }
-    
+    .footer-nav{
+        padding: 55px 0px 0px 100px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px){
+        
+    .navbar{
+        width: 768px;
+        background-color: #4592af;
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    .nav-link{
+        width: 768px;
+        color: #bbff00;
+    }
+    .navbar-brand{
+        height: 30px;
+        width: 768px;
+        color: #bbff00;;
+        font-weight: 700;
+    }
+    header{
+        background-image: url(../assets/img/fondo-rustico.png);
+        background-color: white;
+        display: grid;
+        height: 100px;
+        grid-template-columns: repeat(6, 50px);
+        grid-template-rows: repeat(4, 25px);
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    header h1{
+        background-color: rgb(0, 0, 0);
+        height: 3rem;
+        width: 15rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color:#4592af; 
+        box-shadow: 3px 3px 1px #4592af; 
+        font-size: 30px;
+        color: #bbff00;
+        font-family: 'Michroma', sans-serif;
+        display: grid;
+        grid-column-start: 6;
+        grid-row-start: 2;
+    }
+    .carousel{
+        box-shadow: 0px 0px 5px black;
+        border:#000000;    
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #0c213f;
+        font-size: 15px;
+    }
+    .carousel-inner h5{
+        font-size: 15px;   
+    }
+    .quienes-somos{
+        padding: 50px 150px 50px 150px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        background-image: url(../assets/img/fondo-rustico.png);
+    }
+    .accordion-body{
+        font-size: 15px;
+        font-family: 'Prompt', sans-serif;
+    }
+    .accordion-button{
+        font-size: 15px;
+        background-color: #4593af41;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+    .footer-index{
+        background-color: #4593af65;
+        height: 200px;
+        line-height: 20px;
+        font-weight: bold;
+        display: flex;
+    }
+    .informacion-footer{
+        padding: 30px 0px 0px 200px;
+    }
     .footer-nav{
         padding: 55px 0px 0px 100px;
         text-shadow: 1px 1px 1px black;
@@ -281,119 +352,20 @@ header h1{
 }
 
     @media (max-width:375px){
-
-        .navbar{
-            width: 375px;
-            background-color: #4592af;
-            box-shadow: 0px 0px 5px rgb(114, 114, 114);
-        }
-        
-        .nav-link{
-            color: #bbff00;
-            font-size: 15px;
-        }
-        
-        .navbar-brand{
-            color: #bbff00;
-            font-weight: 700;
-            font-size: 15px;
-        }
-        
-        header{
-            background-image: url(../assets/img/fondo-rustico.png);
-            background-color: white;
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(4, 50px);
-            grid-template-rows: repeat(4, 25px);
-            box-shadow: 0px 0px 5px rgb(114, 114, 114);
-        }
-        
-        header h1{
-            background-color: rgb(0, 0, 0);
-            height: 2.8rem;
-            width: 14.5rem;
-            border-radius: 1rem;
-            border-style: solid;
-            border-color:#4592af; 
-            box-shadow: 6px 5px 1px #4592af; 
-            font-size: 30px;
-            color: #bbff00;
-            font-family: 'Michroma', sans-serif;
-            display: grid;
-            grid-column-start: 2;
-            grid-row-start:2;
-        }
-        
-        .carousel{
-            box-shadow: 0px 0px 5px black;
-            border:#000000;    
-            padding: 1rem 1rem 1rem 1rem;
-            background-color: #0c213f;
-        }
-        
-        .quienes-somos{
-            padding: 50px 130px 50px 20px;
-            box-shadow: 0px 0px 5px rgb(0, 0, 0);
-            background-image: url(../assets/img/fondo-rustico.png);
-        }
-        
-        .accordion-body{
-            font-size: 20px;
-            font-family: 'Prompt', sans-serif;
-            width: 280px;
-            background-image: url(../assets/img/fondo-rustico.png);
-        }
-        
-        .accordion-button{
-            background-image: url(../assets/img/fondo-rustico.png);
-            font-size: 15px;
-            width: 280px;
-            background-color: #4593af41;
-            padding-left: 1rem;
-            font-family: 'Prompt', sans-serif;
-        }
-        
-        .footer-index{
-            background-color: #4593af65;
-            height: 150px;
-            line-height: 0.7rem;
-            font-size: 12px;
-            font-weight: bold;
-            display: flex;
-        }
-        
-        .informacion-footer{
-            padding: 30px 0px 0px 50px;
-        }
-        
-        .footer-nav{
-            padding: 30px 0px 0px 10px;
-            text-shadow: 1px 1px 1px black;
-            font-size: 20px;
-        }
-    
-    }
-
-@media (max-width:320px){
-
     .navbar{
-        width: 320px;
+        width: 375px;
         background-color: #4592af;
         box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }
-    
+    }   
     .nav-link{
         color: #bbff00;
         font-size: 15px;
-    }
-    
+    }       
     .navbar-brand{
         color: #bbff00;
         font-weight: 700;
         font-size: 15px;
-    }
-    
+    }       
     header{
         background-image: url(../assets/img/fondo-rustico.png);
         background-color: white;
@@ -403,7 +375,91 @@ header h1{
         grid-template-rows: repeat(4, 25px);
         box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-    
+        header h1{
+        background-color: rgb(0, 0, 0);
+        height: 2.8rem;
+        width: 14.5rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color:#4592af; 
+        box-shadow: 6px 5px 1px #4592af; 
+        font-size: 30px;
+        color: #bbff00;
+        font-family: 'Michroma', sans-serif;
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start:2;
+    }        
+    .carousel{
+        box-shadow: 0px 0px 5px black;
+        border:#000000;    
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #0c213f;
+    }        
+    .quienes-somos{
+        padding: 50px 130px 50px 20px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        background-image: url(../assets/img/fondo-rustico.png);
+    }
+        
+    .accordion-body{
+        font-size: 20px;
+        font-family: 'Prompt', sans-serif;
+        width: 280px;
+        background-image: url(../assets/img/fondo-rustico.png);
+    }
+        
+    .accordion-button{
+        background-image: url(../assets/img/fondo-rustico.png);
+        font-size: 15px;
+        width: 280px;
+        background-color: #4593af41;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+    .footer-index{
+        background-color: #4593af65;
+        height: 150px;
+        line-height: 0.7rem;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+    }
+    .informacion-footer{
+        padding: 30px 0px 0px 50px;
+    }
+    .footer-nav{
+        padding: 30px 0px 0px 10px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:320px){
+
+    .navbar{
+        width: 320px;
+        background-color: #4592af;
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    .nav-link{
+        color: #bbff00;
+        font-size: 15px;
+    }
+    .navbar-brand{
+        color: #bbff00;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    header{
+        background-image: url(../assets/img/fondo-rustico.png);
+        background-color: white;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        grid-template-rows: repeat(4, 25px);
+        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
     header h1{
         background-color: rgb(0, 0, 0);
         height: 2.8rem;
@@ -419,27 +475,23 @@ header h1{
         grid-column-start: 2;
         grid-row-start:2;
     }
-    
     .carousel{
         box-shadow: 0px 0px 5px black;
         border:#000000;    
         padding: 1rem 1rem 1rem 1rem;
         background-color: #0c213f;
     }
-    
     .quienes-somos{
         padding: 50px 130px 50px 20px;
         box-shadow: 0px 0px 5px rgb(0, 0, 0);
         background-image: url(../assets/img/fondo-rustico.png);
     }
-    
     .accordion-body{
         font-size: 20px;
         font-family: 'Prompt', sans-serif;
         width: 280px;
         background-image: url(../assets/img/fondo-rustico.png);
     }
-    
     .accordion-button{
         background-image: url(../assets/img/fondo-rustico.png);
         font-size: 15px;
@@ -448,7 +500,6 @@ header h1{
         padding-left: 1rem;
         font-family: 'Prompt', sans-serif;
     }
-    
     .footer-index{
         background-color: #4593af65;
         height: 150px;
@@ -456,29 +507,32 @@ header h1{
         font-size: 12px;
         font-weight: bold;
         display: flex;
-    }
-    
+    }    
     .informacion-footer{
         padding: 30px 0px 0px 50px;
     }
-    
     .footer-nav{
         padding: 30px 0px 0px 10px;
         text-shadow: 1px 1px 1px black;
         font-size: 20px;
     }
-
 }
 
+
+
+
 /* CONTACTANOS */
+
+
+
 
 
 .body-contacto{
     background-image: url("../assets/img/fondo-planeta.png");
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 100%;
+    width: 100%;
 }
-
 .body-contacto h1{
     background-color:#4592af;
     height: 50px;
@@ -489,103 +543,195 @@ header h1{
     color: #DBFF00;
     font-style: italic;
     font-family: 'Michroma', sans-serif;
+    padding-top: 4px;
 }
-
+.btn{
+    background-color:#4592af;
+}
 .datos-contacto{
-    height: 32rem;
-    width: 800px;
-    padding: 150px 0px 0px 0px;
-    color:#DBFF00;
+    padding: 200px 500px 200px 500px;
 }
-
-.mensaje-contacto{
-    display: grid;
-    grid-template-columns: repeat(12, 160px);
-    grid-template-rows: repeat(9, 100px);
-}
-
-.mensaje-contacto form{
-    grid-column-start: 6;
-}
-
-.aqui-nombre{
-
-}
-.aqui-mail{
-
-}
-.aqui-telefono{
-
-}
-.aqui-asunto{
-
-}
-.aqui-mensaje{
-
-}
-
-.navegacion-pages-contactanos{
-    background-color: #4592af;
-    height: 70px;
-    text-decoration: none;
-    text-align: center;
-    word-spacing: 5rem;
-    padding-top: 1rem;
-}
-
-.button-1-contacto{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 25px;
+.form-label{
     color: #bbff00;
-    text-shadow: 2px 2px 1px black;
 }
-
-.button-1-contacto:hover{
-    text-decoration: none;
-    color: rgb(243, 178, 0);
-}
-
-.button-2-contacto{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 25px;
+.form-check-label{
     color: #bbff00;
-    text-shadow: 2px 2px 1px black;
 }
 
-.button-2-contacto:hover{
-    text-decoration: none;
-    color: rgb(243, 178, 0);
+@media (max-width:1440px){
+    .body-contacto{
+        background-image: url("../assets/img/fondo-planeta.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    } 
+    .body-contacto h1{
+        background-color:#4592af;
+        height: 50px;
+        text-align: center;
+        display: grid;
+        font-size: 25px;
+        text-shadow: 3px 3px 1px black;
+        color: #DBFF00;
+        font-style: italic;
+        font-family: 'Michroma', sans-serif;
+        padding-top: 8px;
+    } 
+    .btn{
+        background-color:#4592af;
+    }
+    .datos-contacto{
+        padding: 60px 200px 60px 200px;
+    }
+    .form-label{
+        color: #bbff00;
+    }
+    .form-check-label{
+        color: #bbff00;
+    }
 }
 
-.button-3-contacto{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 25px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
+@media (max-width:768px){
+    .body-contacto{
+        background-image: url("../assets/img/fondo-planeta.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    } 
+    .body-contacto h1{
+        background-color:#4592af;
+        height: 50px;
+        text-align: center;
+        display: grid;
+        font-size: 25px;
+        text-shadow: 3px 3px 1px black;
+        color: #DBFF00;
+        font-style: italic;
+        font-family: 'Michroma', sans-serif;
+        padding-top: 8px;
+    } 
+    .btn{
+        background-color:#4592af;
+    }
+    .datos-contacto{
+        padding: 60px 60px 60px 60px;
+    }
+    .form-label{
+        color: #bbff00;
+    }
+    .form-check-label{
+        color: #bbff00;
+    }
 }
 
-.button-3-contacto:hover{
-    text-decoration: none;
-    color: rgb(243, 178, 0);
+@media (max-width:425px){
+    .body-contacto{
+        background-image: url("../assets/img/fondo-planeta.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    } 
+    .body-contacto h1{
+        background-color:#4592af;
+        height: 50px;
+        text-align: center;
+        display: grid;
+        font-size: 20px;
+        text-shadow: 3px 3px 1px black;
+        color: #DBFF00;
+        font-style: italic;
+        font-family: 'Michroma', sans-serif;
+        padding-top: 10px;
+    } 
+    .btn{
+        background-color:#4592af;
+    }
+    .datos-contacto{
+        padding: 30px 10px 30px 10px;
+    }
+    .form-label{
+        color: #bbff00;
+    }
+    .form-check-label{
+        color: #bbff00;
+    }
 }
 
-.button-4-contacto{
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-    font-size: 25px;
-    color: #bbff00;
-    text-shadow: 2px 2px 1px black;
+@media (max-width:375px){
+    .body-contacto{
+        background-image: url("../assets/img/fondo-planeta.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    } 
+    .body-contacto h1{
+        background-color:#4592af;
+        height: 50px;
+        text-align: center;
+        display: grid;
+        font-size: 20px;
+        text-shadow: 3px 3px 1px black;
+        color: #DBFF00;
+        font-style: italic;
+        font-family: 'Michroma', sans-serif;
+        padding-top: 10px;
+    } 
+    .btn{
+        background-color:#4592af;
+    }
+    .datos-contacto{
+        padding: 30px 10px 30px 10px;
+    }
+    .form-label{
+        color: #bbff00;
+    }
+    .form-check-label{
+        color: #bbff00;
+    }
 }
 
-.button-4-contacto:hover{
-    text-decoration: none;
-    color: rgb(243, 178, 0);
+@media (max-width:320px){   
+    .body-contacto{
+        background-image: url("../assets/img/fondo-planeta.png");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    } 
+    .body-contacto h1{
+        background-color:#4592af;
+        height: 50px;
+        text-align: center;
+        display: grid;
+        font-size: 20px;
+        text-shadow: 3px 3px 1px black;
+        color: #DBFF00;
+        font-style: italic;
+        font-family: 'Michroma', sans-serif;
+        padding-top: 10px;
+    } 
+    .btn{
+        background-color:#4592af;
+    }
+    .datos-contacto{
+        padding: 30px 10px 30px 10px;
+    }
+    .form-label{
+        color: #bbff00;
+    }
+    .form-check-label{
+        color: #bbff00;
+    }
 }
+
+
+
+
 
 /* NOSOTROS */
+
+
+
+
 
 .nosotros-titulo{
     background-color: #4592af;
@@ -761,6 +907,7 @@ header h1{
     grid-row-start: ;
     grid-column-start: ;
 }
+
 
 /* SERVICIO TECNICO */
 
