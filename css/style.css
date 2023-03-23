@@ -8,513 +8,564 @@
 
 /*PÁGINA PRINCIPAL*/
 
-.navbar{
-    background-color: #4592af;
-    box-shadow: 0px 0px 5px rgb(114, 114, 114);
+body{
+    background-color: rgb(234, 234, 234);
 }
-
+header{
+    background-color: #4592af;
+}
+.navbar-brand{
+    font-weight: 500;
+}
 .nav-link{
     color: #bbff00;
+    font-weight: 400;
 }
-
-.navbar-brand{
-    color: black;
-    font-weight: 700;
+.title-index{
+    background-color: #004c6b;
+    height: 100px;
 }
-
-header{
-    background-image: url(../assets/img/fondo-rustico.png);
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(4, 50px);
-    box-shadow: 0px 0px 5px rgb(114, 114, 114);
-}
-
-header h1{
-    background-color: rgb(0, 0, 0);
-    height: 6rem;
-    width: 33rem;
-    border-radius: 1rem;
-    border-style: solid;
-    border-color:#4592af; 
-    box-shadow: 6px 5px 1px #4592af; 
-    font-size: 70px;
+main h1{
+    padding-top:0.5rem;
     color: #bbff00;
+    text-align: center;
+    font-size: 60px;
     font-family: 'Michroma', sans-serif;
-    display: grid;
-    grid-column-start: 8;
-    grid-row-start: 2;
 }
-
-.carousel{
-    box-shadow: 0px 0px 5px black;
-    border:#000000;    
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #0c213f;
+.fondo-index{
+    background-image: url("../assets/img/fondo-grande.png");
+    background-position: center;
+    color: black;
 }
-
-.quienes-somos{
-    padding: 50px 130px 50px 700px;
-    box-shadow: 0px 0px 5px rgb(0, 0, 0);
-    background-image: url(../assets/img/fondo-rz.png);
+.fondo-index h2{
+    line-height: 15rem;
+    height: 10rem;
+    font-weight: 1000;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
 }
-
-.accordion-body{
-    font-size: 20px;
-    font-family: 'Prompt', sans-serif;
+.fondo-index h3{
+    line-height: 1rem;
+    height: 10rem;
+    font-weight: 1000;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
 }
-
-.accordion-button{
-    font-size: 20px;
-    background-color: #4593af41;
-    padding-left: 1rem;
-    font-family: 'Prompt', sans-serif;
-}
-
-.footer-index{
-    background-color: #4593af65;
-    height: 150px;
-    line-height: 20px;
-    font-weight: bold;
+.flex-mod{
+    padding-top: 3.5rem;
+    background-color: rgb(228, 228, 228);
     display: flex;
+    justify-content: space-evenly;
 }
-
-.informacion-footer{
-    padding: 30px 0px 0px 200px;
+.box-mod{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
 }
-
-.footer-nav{
-    padding: 55px 0px 0px 800px;
-    text-shadow: 1px 1px 1px black;
+.box-mod img{
+    height: 150px;
+    width: 150px;
+}
+.flex-mensajeria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.box-mensajeria{
+    background-color: #004c6b;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: -10px -10px 1px #4592af;
+}
+.box-mensajeria-info{
+    font-weight: 600;
     font-size: 20px;
+    padding: 5rem 0rem 0rem 0rem;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
 }
-
-@media (max-width:1440px){
-        
-    .navbar{
-        width: 1440px;
-        background-color: #4592af;
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }
-    .nav-link{
-        width: 1440px;
-        color: #bbff00;
-    }
-    .navbar-brand{
-        height: 40px;
-        width: 1440px;
-        color: #bbff00;;
-        font-weight: 500;
-    }
-    header{
-        background-image: url(../assets/img/fondo-rustico.png);
-        background-color: white;
-        display: grid;
-        height: 100px;
-        grid-template-columns: repeat(6, 50px);
-        grid-template-rows: repeat(4, 25px);
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }
-    header h1{
-        background-color: rgb(0, 0, 0);
-        height: 3rem;
-        width: 15rem;
-        border-radius: 1rem;
-        border-style: solid;
-        border-color:#4592af; 
-        box-shadow: 3px 3px 1px #4592af; 
-        font-size: 30px;
-        color: #bbff00;
-        font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 6;
-        grid-row-start: 2;
-    }
-    .carousel{
-        box-shadow: 0px 0px 5px black;
-        border:#000000;    
-        padding: 1rem 1rem 1rem 1rem;
-        background-color: #0c213f;
-        font-size: 15px;
-    }
-    .carousel-inner h5{
-        font-size: 15px;   
-    }
-    .quienes-somos{
-        padding: 50px 150px 50px 150px;
-        box-shadow: 0px 0px 5px rgb(0, 0, 0);
-        background-image: url(../assets/img/fondo-rustico.png);
-    }
-    .accordion-body{
-        font-size: 15px;
-        font-family: 'Prompt', sans-serif;
-    }
-    .accordion-button{
-        font-size: 15px;
-        background-color: #4593af41;
-        padding-left: 1rem;
-        font-family: 'Prompt', sans-serif;
-    }
-    .footer-index{
-        background-color: #4593af65;
-        height: 200px;
-        line-height: 20px;
-        font-weight: bold;
-        display: flex;
-    }
-    .informacion-footer{
-        padding: 30px 0px 0px 200px;
-    }
-    .footer-nav{
-        padding: 55px 0px 0px 100px;
-        text-shadow: 1px 1px 1px black;
-        font-size: 20px;
-    }
+.box-secure{
+    box-shadow: -10px -10px 1px #4592af;
+    background-color:#004c6b;
+    width: 20rem;
+    height: 20rem;
+}
+footer{
+    background-color: #4592af;
+}
+.flex-footer{
+    display: flex;
+    justify-content: center;
+}
+.box-footer{
+    padding-top: 1rem;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 500px;
 }
 
 @media (max-width:768px){
-        
-    .navbar{
-        width: 768px;
-        background-color: #4592af;
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }
-    .nav-link{
-        width: 768px;
-        color: #bbff00;
-    }
-    .navbar-brand{
-        height: 30px;
-        width: 768px;
-        color: #bbff00;;
-        font-weight: 700;
+    body{
+        background-color: rgb(234, 234, 234);
     }
     header{
-        background-image: url(../assets/img/fondo-rustico.png);
-        background-color: white;
-        display: grid;
-        height: 100px;
-        grid-template-columns: repeat(6, 50px);
-        grid-template-rows: repeat(4, 25px);
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+        background-color: #4592af;
     }
-    header h1{
-        background-color: rgb(0, 0, 0);
-        height: 3rem;
-        width: 15rem;
-        border-radius: 1rem;
-        border-style: solid;
-        border-color:#4592af; 
-        box-shadow: 3px 3px 1px #4592af; 
-        font-size: 30px;
+    .navbar-brand{
+        font-weight: 500;
+    }
+    .nav-link{
         color: #bbff00;
+        font-weight: 400;
+    }
+    .title-index{
+        background-color: #004c6b;
+        height: 100px;
+    }
+    main h1{
+        padding-top:1rem;
+        color: #bbff00;
+        text-align: center;
+        font-size: 50px;
         font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 6;
-        grid-row-start: 2;
     }
-    .carousel{
-        box-shadow: 0px 0px 5px black;
-        border:#000000;    
-        padding: 1rem 1rem 1rem 1rem;
-        background-color: #0c213f;
-        font-size: 15px;
+    .fondo-index{
+        background-image: url("../assets/img/fondo-grande.png");
+        background-position: center;
+        color: black;
     }
-    .carousel-inner h5{
-        font-size: 15px;   
+    .fondo-index h2{
+        line-height: 15rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    .quienes-somos{
-        padding: 50px 150px 50px 150px;
-        box-shadow: 0px 0px 5px rgb(0, 0, 0);
-        background-image: url(../assets/img/fondo-rustico.png);
+    .fondo-index h3{
+        line-height: 1rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    .accordion-body{
-        font-size: 15px;
-        font-family: 'Prompt', sans-serif;
-    }
-    .accordion-button{
-        font-size: 15px;
-        background-color: #4593af41;
-        padding-left: 1rem;
-        font-family: 'Prompt', sans-serif;
-    }
-    .footer-index{
-        background-color: #4593af65;
-        height: 200px;
-        line-height: 20px;
-        font-weight: bold;
+    .flex-mod{
+        padding-top: 3.5rem;
+        background-color: rgb(228, 228, 228);
         display: flex;
+        justify-content: space-evenly;
     }
-    .informacion-footer{
-        padding: 30px 0px 0px 200px;
+    .box-mod{
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        height: 250px;
+        width: 250px;
     }
-    .footer-nav{
-        padding: 55px 0px 0px 100px;
-        text-shadow: 1px 1px 1px black;
+    .box-mod img{
+        height: 150px;
+        width: 150px;
+    }
+    .flex-mensajeria{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 15rem;
+    }
+    .box-mensajeria{
+        background-color: #004c6b;
+        width: 20rem;
+        height: 20rem;
+        box-shadow: -10px -10px 1px #4592af;
+    }
+    .box-mensajeria-info{
+        font-weight: 600;
         font-size: 20px;
+        padding: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+    }
+    .box-secure{
+        box-shadow: -10px -10px 1px #4592af;
+        background-color:#004c6b;
+        width: 20rem;
+        height: 20rem;
+    }
+    footer{
+        background-color: #4592af;
+    }
+    .flex-footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-left: 10rem;
+    }
+    .box-footer{
+        padding-top: 1rem;
+        font-weight: 600;
+        text-align: center;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 500px;
     }
 }
 
 @media (max-width:425px){
-        
-    .navbar{
-        width: 425px;
-        background-color: #4592af;
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    body{
+        background-color: rgb(234, 234, 234);
     }
-
-    .nav-link{
-        width: 425px;
-        color: #bbff00;
-    }
-    
-    .navbar-brand{
-        height: 30px;
-        width: 425px;
-        color: #bbff00;;
-        font-weight: 700;
-    }
-    
     header{
-        background-image: url(../assets/img/fondo-rustico.png);
-        background-color: white;
-        display: grid;
+        background-color: #4592af;
+    }
+    .navbar-brand{
+        font-weight: 500;
+    }
+    .nav-link{
+        color: #bbff00;
+        font-weight: 400;
+    }
+    .title-index{
+        background-color: #004c6b;
         height: 100px;
-        grid-template-columns: repeat(6, 25px);
-        grid-template-rows: repeat(4, 25px);
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
     }
-    
-    header h1{
-        background-color: rgb(0, 0, 0);
-        height: 3rem;
-        width: 16rem;
-        border-radius: 1rem;
-        border-style: solid;
-        border-color:#4592af; 
-        box-shadow: 3px 3px 1px #4592af; 
-        font-size: 33px;
+    main h1{
+        padding-top:1rem;
         color: #bbff00;
+        text-align: center;
+        font-size: 40px;
         font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 4;
-        grid-row-start: 2;
     }
-    
-    .carousel{
-        box-shadow: 0px 0px 5px black;
-        border:#000000;    
-        padding: 1rem 1rem 1rem 1rem;
-        background-color: #0c213f;
-        font-size: 15px;
+    .fondo-index{
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/img/fondo-grande.png");
+        background-position: center;
+        color: black;
     }
-
-    .carousel-inner h5{
-        font-size: 15px;   
+    .fondo-index h2{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    
-    .quienes-somos{
-        padding: 50px 50px 50px 50px;
-        box-shadow: 0px 0px 5px rgb(0, 0, 0);
-        background-image: url(../assets/img/fondo-rustico.png);
+    .fondo-index h3{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    
-    .accordion-body{
-        font-size: 15px;
-        font-family: 'Prompt', sans-serif;
-    }
-    
-    .accordion-button{
-        font-size: 15px;
-        background-color: #4593af41;
-        padding-left: 1rem;
-        font-family: 'Prompt', sans-serif;
-    }
-    
-    .footer-index{
-        background-color: #4593af65;
-        height: 200px;
-        line-height: 20px;
-        font-weight: bold;
+    .flex-mod{
+        padding-top: 2rem;
+        background-color: rgb(228, 228, 228);
         display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
     }
-    
-    .informacion-footer{
-        padding: 30px 0px 0px 50px;
+    .box-mod{
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        height: 250px;
+        width: 250px;
     }
-    
-    .footer-nav{
-        padding: 45px 0px 0px 30px;
-        text-shadow: 1px 1px 1px black;
+    .box-mod img{
+        height: 150px;
+        width: 150px;
+    }
+    .flex-mensajeria{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+    }
+    .box-mensajeria{
+        background-color: #004c6b;
+        width: 20rem;
+        height: 20rem;
+        box-shadow: -10px -10px 1px #4592af;
+    }
+    .box-mensajeria-info{
+        font-weight: 600;
         font-size: 20px;
+        padding: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+    }
+    .box-secure{
+        box-shadow: -10px -10px 1px #4592af;
+        background-color:#004c6b;
+        width: 20rem;
+        height: 20rem;
+    }
+    footer{
+        background-color: #4592af;
+    }
+    .flex-footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+    }
+    .box-footer{
+        padding-top: 1rem;
+        font-weight: 600;
+        text-align: center;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 100%;
     }
 }
-
-    @media (max-width:375px){
-    .navbar{
-        width: 375px;
+@media (max-width:375px){
+    body{
+        background-color: rgb(234, 234, 234);
+    }
+    header{
         background-color: #4592af;
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }   
+    }
+    .navbar-brand{
+        font-weight: 500;
+    }
     .nav-link{
         color: #bbff00;
-        font-size: 15px;
-    }       
-    .navbar-brand{
-        color: #bbff00;
-        font-weight: 700;
-        font-size: 15px;
-    }       
-    header{
-        background-image: url(../assets/img/fondo-rustico.png);
-        background-color: white;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(4, 50px);
-        grid-template-rows: repeat(4, 25px);
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+        font-weight: 400;
     }
-        header h1{
-        background-color: rgb(0, 0, 0);
-        height: 2.8rem;
-        width: 14.5rem;
-        border-radius: 1rem;
-        border-style: solid;
-        border-color:#4592af; 
-        box-shadow: 6px 5px 1px #4592af; 
-        font-size: 30px;
+    .title-index{
+        background-color: #004c6b;
+        height: 100px;
+    }
+    main h1{
+        padding-top:1rem;
         color: #bbff00;
+        text-align: center;
+        font-size: 40px;
         font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 2;
-        grid-row-start:2;
-    }        
-    .carousel{
-        box-shadow: 0px 0px 5px black;
-        border:#000000;    
-        padding: 1rem 1rem 1rem 1rem;
-        background-color: #0c213f;
-    }        
-    .quienes-somos{
-        padding: 50px 130px 50px 20px;
-        box-shadow: 0px 0px 5px rgb(0, 0, 0);
-        background-image: url(../assets/img/fondo-rustico.png);
     }
-        
-    .accordion-body{
-        font-size: 20px;
-        font-family: 'Prompt', sans-serif;
-        width: 280px;
-        background-image: url(../assets/img/fondo-rustico.png);
+    .fondo-index{
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/img/fondo-grande.png");
+        background-position: center;
+        color: black;
     }
-        
-    .accordion-button{
-        background-image: url(../assets/img/fondo-rustico.png);
-        font-size: 15px;
-        width: 280px;
-        background-color: #4593af41;
-        padding-left: 1rem;
-        font-family: 'Prompt', sans-serif;
+    .fondo-index h2{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    .footer-index{
-        background-color: #4593af65;
-        height: 150px;
-        line-height: 0.7rem;
-        font-size: 12px;
-        font-weight: bold;
+    .fondo-index h3{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
+    }
+    .flex-mod{
+        padding-top: 2rem;
+        background-color: rgb(228, 228, 228);
         display: flex;
+        flex-direction: column;
+        padding-left: 4rem;
     }
-    .informacion-footer{
-        padding: 30px 0px 0px 50px;
+    .box-mod{
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        height: 250px;
+        width: 250px;
     }
-    .footer-nav{
-        padding: 30px 0px 0px 10px;
-        text-shadow: 1px 1px 1px black;
+    .box-mod img{
+        height: 150px;
+        width: 150px;
+    }
+    .flex-mensajeria{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    }
+    .box-mensajeria{
+        background-color: #004c6b;
+        width: 20rem;
+        height: 20rem;
+        box-shadow: -10px -10px 1px #4592af;
+    }
+    .box-mensajeria-info{
+        font-weight: 600;
         font-size: 20px;
+        padding: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+    }
+    .box-secure{
+        box-shadow: -10px -10px 1px #4592af;
+        background-color:#004c6b;
+        width: 20rem;
+        height: 20rem;
+    }
+    footer{
+        background-color: #4592af;
+    }
+    .flex-footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+    }
+    .box-footer{
+        padding-top: 1rem;
+        font-weight: 600;
+        text-align: center;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 100%;
     }
 }
-
 @media (max-width:320px){
-
-    .navbar{
-        width: 320px;
+    body{
+        background-color: rgb(234, 234, 234);
+    }
+    header{
         background-color: #4592af;
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    }
+    .navbar-brand{
+        font-weight: 500;
     }
     .nav-link{
         color: #bbff00;
-        font-size: 15px;
+        font-weight: 400;
     }
-    .navbar-brand{
+    .title-index{
+        background-color: #004c6b;
+        height: 100px;
+    }
+    main h1{
+        padding-top:1rem;
         color: #bbff00;
-        font-weight: 700;
-        font-size: 15px;
-    }
-    header{
-        background-image: url(../assets/img/fondo-rustico.png);
-        background-color: white;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(4, 50px);
-        grid-template-rows: repeat(4, 25px);
-        box-shadow: 0px 0px 5px rgb(114, 114, 114);
-    }
-    header h1{
-        background-color: rgb(0, 0, 0);
-        height: 2.8rem;
-        width: 14.5rem;
-        border-radius: 1rem;
-        border-style: solid;
-        border-color:#4592af; 
-        box-shadow: 6px 5px 1px #4592af; 
-        font-size: 30px;
-        color: #bbff00;
+        text-align: center;
+        font-size: 40px;
         font-family: 'Michroma', sans-serif;
-        display: grid;
-        grid-column-start: 2;
-        grid-row-start:2;
     }
-    .carousel{
-        box-shadow: 0px 0px 5px black;
-        border:#000000;    
-        padding: 1rem 1rem 1rem 1rem;
-        background-color: #0c213f;
+    .fondo-index{
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/img/fondo-grande.png");
+        background-position: center;
+        color: black;
     }
-    .quienes-somos{
-        padding: 50px 130px 50px 20px;
-        box-shadow: 0px 0px 5px rgb(0, 0, 0);
-        background-image: url(../assets/img/fondo-rustico.png);
+    .fondo-index h2{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    .accordion-body{
-        font-size: 20px;
-        font-family: 'Prompt', sans-serif;
-        width: 280px;
-        background-image: url(../assets/img/fondo-rustico.png);
+    .fondo-index h3{
+        line-height: 5rem;
+        height: 10rem;
+        font-weight: 1000;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
     }
-    .accordion-button{
-        background-image: url(../assets/img/fondo-rustico.png);
-        font-size: 15px;
-        width: 280px;
-        background-color: #4593af41;
-        padding-left: 1rem;
-        font-family: 'Prompt', sans-serif;
-    }
-    .footer-index{
-        background-color: #4593af65;
-        height: 150px;
-        line-height: 0.7rem;
-        font-size: 12px;
-        font-weight: bold;
+    .flex-mod{
+        padding-top: 2rem;
+        background-color: rgb(228, 228, 228);
         display: flex;
-    }    
-    .informacion-footer{
-        padding: 30px 0px 0px 50px;
+        flex-direction: column;
+        padding-left: 2rem;
     }
-    .footer-nav{
-        padding: 30px 0px 0px 10px;
-        text-shadow: 1px 1px 1px black;
+    .box-mod{
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        height: 250px;
+        width: 250px;
+    }
+    .box-mod img{
+        height: 150px;
+        width: 150px;
+    }
+    .flex-mensajeria{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .box-mensajeria{
+        width: 18rem;
+        height: 18rem;
+        box-shadow: -10px -10px 1px #4592af;
+    }
+    .box-mensajeria-info{
+        font-weight: 600;
         font-size: 20px;
+        padding: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        width: 18rem;
+        height: 18rem;
+    }
+    .box-secure{
+        box-shadow: -10px -10px 1px #4592af;
+        width: 18rem;
+        height: 18rem;
+    }
+    footer{
+        background-color: #4592af;
+    }
+    .flex-footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+    }
+    .box-footer{
+        padding-top: 1rem;
+        font-weight: 600;
+        text-align: center;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 100%;
     }
 }
 
