@@ -4,78 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Servicio técnico</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Prompt:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
-<body>
-    <header class="header-servicio">
-        <h1>RZREPAIR</h1>
-        <h2>Nuestro servicio técnico</h2>
+<body class="body-servicio">
+    <header>
+        <div class="header-servicio">
+        <h3>RZREPAIR</h3>
+        <p>Nuestro servicio técnico</p>
+        </div>
     </header>
     <main>
     </section>
         <div class="main-servicio">
-            <h3>Realizamos todo tipo de reparaciones...</h3>
+            <h4>Realizamos todo tipo de reparaciones...</h4>
             <h4>Todas las marcas y modelos</h4>
-            <h2>iPhone y Androids</h2>
-            <img class="android-icon" src="../assets/img/Android.png" alt="" class="android-icon">
-            <img class="apple-icon" src="../assets/img/apple.png" alt="" class="iphone-icon">
+            <h4>iPhone y Androids</h4>
         </div>
     </section>  
     <section>
-        <div  class="servicio-info">
-            <ul class="ul-1">
-                <li><img src="../assets/img/icono-bateria2.png" alt="">Baterías</li>
-                <li><img src="../assets/img/icono-modulo.png" alt="">Módulos</li>
-                <li><img src="../assets/img/icono-pin.png" alt="">Pin de Carga</li>
-                <li><img src="../assets/img/icono-camara.png" alt="">Cámaras</li>
-            </ul>
-            <ul class="ul-2">
-                <li><img src="../assets/img/icono-microfono.png" alt="">Micrófono</li>
-                <li><img src="../assets/img/icono-parlante.png" alt="">Parlantes</li>
-                <li><img src="../assets/img/icono-carcaza.png" alt="">Carcaza</li>
-                <li><img src="../assets/img/icono-placa.png" alt="">Placas</li>
-            </ul>
+        <div class="flex-servicio">
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/battery-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/modulo-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/pin-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/camera-img.png" alt="">
+            </div>
+        </div>
+        <div  class="flex-servicio">
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/mic-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/parlante-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/vidrio-img.png" alt="">
+            </div>
+            <div class="servicio-box">
+                <img src="../assets/img/servicio-img/placa-img.png" alt="">
+            </div>
         </div>
     </section>  
-    <section>
-        <div class="reparamos-pc">
-            <h1>También reparamos computadoras</h1>
-        </div>
-    </section>
-    <!-- 
-        <div class="servicio-computadoras">
-            ¡También reparamos computadoras!
-            <img src="../assets/img/servicio-computadoras.png" alt="" class="lista-computadoras">
-            <img src="../assets/img/icono-pc.png" alt="" class="pc-icon">
-            <img src="../assets/img/icono-notebook.png" alt="" class="notebook-icon">
-            <img src="" alt="">
-        </div>
-        <div class="medios-de-pago">
-            Medios de pago
-        <div>
-            <img src="../assets/img/pagos-icon.png" alt="" class="pagos-icon">
-            <b>
-            <p>Efectivo Tarjetas Tether Binance Bitcoin</p>
-            </b>
-            <div class="volver-principal">
-                <ul>
-                    <a href="../pages/nosotros.html">Nosotros</a>
-                    <a href="../pages/contactos.html">Contacto</a>
-                    <a href="../index.html">Inicio</a>
-                    <a href="../pages/galeria.html">Galería</a>
-                </ul>
-            </div> -->
-        </div> 
-    </section>
     </main>
     <footer>
-
+        <nav class="navbar navbar-expand-lg --bs-info-rgb">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Volver al inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Redes sociales
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/rzrepair/" target="_blank"><i>Instagram</a></li>
+                    <li><a class="dropdown-item" href="#">Facebook</a></li>
+                    </ul>
+                </li>
+                </ul>
+                </form>
+            </div>
+            </div>
+        </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
