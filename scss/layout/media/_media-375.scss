@@ -219,3 +219,185 @@
         }
     }
     
+
+    @media (max-width:375px){   
+        .fondo-body-nosotros{
+            background-color: white;
+        }
+        .nosotros-subtitulo-sec{
+            width: 375px;
+            height: 300px;
+            background-image: url("../assets/img/img-768px/fondo-h1-3-768.png");
+            background-position: center;
+        }
+        .tracking-in-expand {
+            -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        }
+        @-webkit-keyframes tracking-in-expand {
+            0% {
+            letter-spacing: -0.5em;
+            opacity: 0;
+            }
+            40% {
+            opacity: 0.6;
+            }
+            100% {
+            opacity: 1;
+            }
+        }
+        @keyframes tracking-in-expand {
+            0% {
+            letter-spacing: -0.5em;
+            opacity: 0;
+            }
+            40% {
+            opacity: 0.6;
+            }
+            100% {
+            opacity: 1;
+            }
+        }
+        
+        .nosotros-subtitulo{
+        padding-top: 0.2rem;
+        }
+        .nosotros-subtitulo h5{
+            font-size: 35px;
+            text-align: center;
+            width: 375px;
+            color: rgb(0, 0, 0);
+            border-style: solid;
+            border-color:#bbff00;
+            margin: 1rem 1rem 1rem 0.1rem;
+            border-radius: 10rem;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .nosotros-subtitulo h5:hover{
+            font-size: 35px;
+            width: 375px;
+            margin: 1rem 1rem 1rem 0.1rem;
+            color: rgb(255, 111, 0);
+            border-style: solid;
+            border-color:#bbff00;
+            border-radius: 10rem;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .nosotros-subtitulo p{
+            text-align: center;
+            height: 12rem;
+            width: 23rem;
+            font-size: 15px;
+            padding-top: 0.1rem;
+            padding-right: 2rem;
+            margin: 0rem 1rem 1rem 0.1rem;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        .nosotros-subtitulo h4{
+        padding-top: 1rem;
+        color: rgb(0, 0, 0);
+        }
+        .section-curso{
+        padding-top: 1rem;
+        }
+        .section-curso p{
+            text-align: center;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 25px;
+            background-color: rgba(157, 255, 0, 0.179);
+            border-radius: 10rem;
+        }
+        .curso-2023{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        }
+        .curso-1 h4{
+        padding-top: 0.1rem;
+        font-size: 70px;
+        font-family: 'Rajdhani', sans-serif;
+        text-shadow: 2px 2px 1px rgb(255, 68, 0);   
+        padding-left: 5rem;
+        }
+        .curso-icon{
+            padding-left: 2.2rem;
+            height: 200px;
+            width: 200px;
+        }
+        .curso-2 h4{
+        padding-left: 7rem;
+        padding-top: 5rem;
+        font-size: 70px;
+        font-family: 'Rajdhani', sans-serif;
+        text-shadow: 2px 2px 1px rgb(255, 68, 0);
+        }
+        .intro-crono h3{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(157, 255, 0, 0.179);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10rem;
+        }
+        .info-curso{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 1rem;
+        }
+        .info-curso h4{
+        font-size: 30px;
+        background-color: rgba(1, 183, 255, 0.349);
+        border-radius: 10rem;
+        font-family: 'Rajdhani', sans-serif;
+        }
+        .info-curso-p{
+            padding-top: 0.1rem;
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .iphone-desarmado{
+            padding-left: 1.1rem;
+        }
+        .cronograma-curso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+        gap: 0.1rem;
+        }
+        .box-cronograma{
+            width: 375px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .cronograma-curso h3{
+        justify-content: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        background-color: rgba(1, 183, 255, 0.349);
+        border-radius: 10rem;
+        }
+        .box-cronograma h4{
+        background-color: rgba(157, 255, 0, 0.179);
+        text-align: center;
+        border-radius: 10rem;
+        font-weight: 600;
+        }
+        .tools-curso h5{
+            text-align: center;
+            padding-right: 10rem;
+        }
+        .tools-curso{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 3.5rem;
+        }
+        }

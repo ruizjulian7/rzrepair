@@ -111,14 +111,17 @@ text-shadow: 2px 2px 1px rgb(255, 68, 0);
 .info-curso{
   display: flex;
   justify-content: center;
-  gap: 10rem;
-  padding-top: 2rem;
+  gap: 5rem;
 }
 .info-curso h4{
   font-size: 35px;
   background-color: rgba(1, 183, 255, 0.349);
   border-radius: 10rem;
   font-family: 'Rajdhani', sans-serif;
+}
+.iphone-desarmado{
+  padding-top: 6rem;
+  padding-left: 1rem;
 }
 .info-curso-p{
   padding-top: 3rem;
@@ -127,9 +130,6 @@ text-shadow: 2px 2px 1px rgb(255, 68, 0);
   width: 600px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-}
-.iphone-desarmado{
-  box-shadow: 0px 0px 10px black;
 }
 .cronograma-curso{
   display: flex;
@@ -155,6 +155,12 @@ text-shadow: 2px 2px 1px rgb(255, 68, 0);
   border-radius: 10rem;
   font-weight: 600;
 }
-.tools-img{
-  padding-top: 1rem;
+.tools-curso{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.tools-curso h5{
+  text-align: center;
+  font-size: 25px;
 }

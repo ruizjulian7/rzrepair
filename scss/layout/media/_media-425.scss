@@ -246,7 +246,7 @@
         .nosotros-subtitulo-sec{
             width: 425px;
             height: 300px;
-            background-image: url("../assets/img/img-768px/fondo-h1-3-768.png");
+            background-image: url("../assets/img/img-425px/fondo-h1-3-425.png");
             background-position: center;
         }
         .tracking-in-expand {
@@ -255,31 +255,31 @@
         }
         @-webkit-keyframes tracking-in-expand {
             0% {
-              letter-spacing: -0.5em;
-              opacity: 0;
+            letter-spacing: -0.5em;
+            opacity: 0;
             }
             40% {
-              opacity: 0.6;
+            opacity: 0.6;
             }
             100% {
-              opacity: 1;
+            opacity: 1;
             }
         }
         @keyframes tracking-in-expand {
             0% {
-              letter-spacing: -0.5em;
-              opacity: 0;
+            letter-spacing: -0.5em;
+            opacity: 0;
             }
             40% {
-              opacity: 0.6;
+            opacity: 0.6;
             }
             100% {
-              opacity: 1;
+            opacity: 1;
             }
         }
         
         .nosotros-subtitulo{
-        padding-top: 2rem;
+        padding-top: 0.2rem;
         }
         .nosotros-subtitulo h5{
             font-size: 35px;
@@ -288,24 +288,27 @@
             color: rgb(0, 0, 0);
             border-style: solid;
             border-color:#bbff00;
-            margin: 1rem 1rem 1rem 1rem;
+            margin: 1rem 1rem 1rem 0.1rem;
             border-radius: 10rem;
+            font-family: 'Rajdhani', sans-serif;
         }
         .nosotros-subtitulo h5:hover{
             font-size: 35px;
-            width: 400px;
-            margin: 1rem 1rem 1rem 1rem;
+            width: 425px;
+            margin: 1rem 1rem 1rem 0.1rem;
             color: rgb(255, 111, 0);
             border-style: solid;
             border-color:#bbff00;
             border-radius: 10rem;
+            font-family: 'Rajdhani', sans-serif;
         }
         .nosotros-subtitulo p{
             text-align: center;
             height: 14rem;
-            width: 25rem;
+            width: 22rem;
             font-size: 15px;
             padding-top: 0.5rem;
+            padding-left:2.5rem;
             margin: 0rem 1rem 1rem 1rem;
             font-family: 'Rajdhani', sans-serif;
         }
@@ -334,13 +337,15 @@
         font-size: 70px;
         font-family: 'Rajdhani', sans-serif;
         text-shadow: 2px 2px 1px rgb(255, 68, 0);   
-        padding-left: 10rem;
+        padding-left: 7rem;
         }
         .curso-icon{
+            padding-left: 4rem;
             height: 200px;
             width: 200px;
         }
         .curso-2 h4{
+        padding-left: 8.5rem;
         padding-top: 5rem;
         font-size: 70px;
         font-family: 'Rajdhani', sans-serif;
@@ -377,18 +382,17 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .iphone-desarmado{
-            padding-left: 2rem;
+            padding-left: 2.5rem;
         }
         .cronograma-curso{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 1.5rem;
         font-size: 20px;
         gap: 0.1rem;
         }
         .box-cronograma{
-            width: 600px;
+            width: 425px;
             font-family: Arial, Helvetica, sans-serif;
         }
         .cronograma-curso h3{
@@ -405,8 +409,15 @@
         border-radius: 10rem;
         font-weight: 600;
         }
-        .tools-img{
-            padding-left: 2rem;
-            padding-top: 0.1rem;
+        .tools-curso h5{
+            text-align: center;
+            padding-right: 10rem;
+        }
+        .tools-curso{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 5.5rem;
         }
         }
+        

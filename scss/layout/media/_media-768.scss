@@ -350,7 +350,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .iphone-desarmado{
-            padding-left: 6.5rem;
+            padding-left: 14rem;
         }
         .cronograma-curso{
         display: flex;
@@ -377,8 +377,36 @@
         border-radius: 10rem;
         font-weight: 600;
         }
+        .tools-curso h5{
+            text-align: center;
+            padding-left: 5rem;
+        }
+        .tools-curso{
+            display: grid;
+            grid-template-columns: repeat(12, 64px);
+            grid-template-rows: repeat(12, 50px);
+            padding-bottom: 5rem;
+        }
         .tools-img{
-            padding-left: 7rem;
-            padding-top: 0.1rem;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .tools-img-2{
+            grid-column-start: 6;
+            grid-row-start: 1;
+        }
+        .tools-img-3{
+            grid-column-start: 2;
+            grid-row-start: 5;
+        }
+        .tools-img-4{
+            grid-column-start: 6;
+            grid-row-start: 5;
+            
+        }
+        .tools-img-5{
+            grid-column-start: 4;
+            grid-row-start: 9;
+            padding-bottom: 1rem;
         }
         }
