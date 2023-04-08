@@ -1,0 +1,66 @@
+.body-contacto{
+    background-image: url("../assets/img/fondo-planeta.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.body-contacto h1{
+    text-shadow: 2px 2px 1px #4592af;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    font-size: 40px;
+    font-weight: 600;
+    color: #DBFF00;
+    font-family: 'Michroma', sans-serif;
+    padding-top: 5rem;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+.btn{
+    background-color:#4592af;
+}
+.datos-contacto{
+    padding: 200px 500px 200px 500px;
+}
+.form-label{
+    color: #bbff00;
+    font-weight: 500;
+}
+.form-check-label{
+    color: #bbff00;
+    font-weight: 500;
+}
+.navbar{
+    font-weight: 500;
+    background-color: #4592af;
+}
+.nav-link{
+    font-weight: 500;
+}
