@@ -487,6 +487,7 @@ footer {
   border-color: #bbff00;
   margin: 1rem 1rem 1rem 48rem;
   border-radius: 10rem;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nosotros-subtitulo h5:hover {
@@ -497,6 +498,7 @@ footer {
   border-style: solid;
   border-color: #bbff00;
   border-radius: 10rem;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .nosotros-subtitulo p {
@@ -623,19 +625,30 @@ footer {
 }
 
 .body-galeria {
-  background-image: linear-gradient(to right top, #96d3f9, #b3d9fc, #cbe0fe, #dfe8fe, #eff1fe, #eceefe, #e9ebff, #e6e8ff, #cdd9ff, #adcbff, #83bfff, #3fb4ff);
-  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.titulo-galeria {
+  background-color: rgba(157, 255, 0, 0.179);
+  border-radius: 10rem;
 }
 
 .titulo-galeria h1 {
-  background-image: linear-gradient(to right top, #000000, #060606, #0b0b0b, #101010, #141414);
   padding-top: 0.5rem;
   height: 50px;
-  color: #bbff00;
+  color: black;
   text-align: center;
-  font-size: 25px;
-  font-family: "Michroma", sans-serif;
-  text-shadow: 1px 1px 1px rgb(255, 183, 0);
+  font-size: 30px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.main-galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 32rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 1440px) {
@@ -757,6 +770,7 @@ footer {
     border-color: #bbff00;
     margin: 1rem 1rem 1rem 33rem;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo h5:hover {
     font-size: 35px;
@@ -766,6 +780,7 @@ footer {
     border-style: solid;
     border-color: #bbff00;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
@@ -786,6 +801,9 @@ footer {
     background-color: rgba(157, 255, 0, 0.179);
     border-radius: 10rem;
   }
+  .curso-2023 {
+    padding-right: 3rem;
+  }
   .curso-2023 img {
     background-position: center;
   }
@@ -801,8 +819,8 @@ footer {
   .info-curso {
     display: flex;
     justify-content: center;
-    gap: 10rem;
-    padding-top: 2rem;
+    gap: 5rem;
+    padding-top: 0.5rem;
   }
   .info-curso h4 {
     font-size: 35px;
@@ -843,6 +861,31 @@ footer {
     font-weight: 600;
   }
   .tools-img {
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 1440px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 16rem;
+    padding-bottom: 1rem;
     padding-top: 1rem;
   }
 }
@@ -934,6 +977,7 @@ footer {
     border-color: #bbff00;
     margin: 1rem 1rem 1rem 20rem;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo h5:hover {
     font-size: 35px;
@@ -943,6 +987,7 @@ footer {
     border-style: solid;
     border-color: #bbff00;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
@@ -1235,6 +1280,31 @@ footer {
     padding-bottom: 1rem;
   }
 }
+@media (max-width: 1024px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 3.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
 @media (max-width: 768px) {
   body {
     background-color: rgb(255, 255, 255);
@@ -1502,6 +1572,7 @@ footer {
     border-color: #bbff00;
     margin: 1rem 1rem 1rem 11.5rem;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo h5:hover {
     font-size: 35px;
@@ -1511,6 +1582,7 @@ footer {
     border-style: solid;
     border-color: #bbff00;
     border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
@@ -1640,6 +1712,35 @@ footer {
     grid-column-start: 4;
     grid-row-start: 9;
     padding-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria img {
+    width: 200px;
+    height: 250px;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 @media (max-width: 425px) {
@@ -2014,7 +2115,7 @@ footer {
   }
   .info-curso-p {
     padding-top: 0.1rem;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     width: 100%;
     text-align: center;
@@ -2034,6 +2135,12 @@ footer {
     width: 425px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .box-cronograma p {
+    font-size: 16px;
+  }
+  .box-cronograma li {
+    font-size: 16px;
+  }
   .cronograma-curso h3 {
     justify-content: center;
     font-family: "Rajdhani", sans-serif;
@@ -2051,12 +2158,42 @@ footer {
   .tools-curso h5 {
     text-align: center;
     padding-right: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .tools-curso {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 5.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 65px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria img {
+    width: 100px;
+    height: 130px;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 3.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 @media (max-width: 375px) {
@@ -2412,7 +2549,7 @@ footer {
   }
   .info-curso-p {
     padding-top: 0.1rem;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     width: 100%;
     text-align: center;
@@ -2435,10 +2572,16 @@ footer {
   .cronograma-curso h3 {
     justify-content: center;
     font-family: "Rajdhani", sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
+  }
+  .box-cronograma p {
+    font-size: 16px;
+  }
+  .box-cronograma li {
+    font-size: 16px;
   }
   .box-cronograma h4 {
     background-color: rgba(157, 255, 0, 0.179);
@@ -2447,6 +2590,7 @@ footer {
     font-weight: 600;
   }
   .tools-curso h5 {
+    font-family: "Rajdhani", sans-serif;
     text-align: center;
     padding-right: 10rem;
   }
@@ -2455,6 +2599,35 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding-left: 3.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 65px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria img {
+    width: 100px;
+    height: 130px;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 @media (max-width: 320px) {
@@ -2627,7 +2800,7 @@ footer {
   .nosotros-subtitulo-sec {
     width: 320px;
     height: 300px;
-    background-image: url("../assets/img/img-425px/fondo-h1-3-425.png");
+    background-image: url("../assets/img/img-320px/fondo-h1-3-320.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -2759,8 +2932,11 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .iphone-desarmado {
-    width: 100%;
+  .iphone-desarmado img {
+    height: 225px;
+    width: 300px;
+    padding-left: 1rem;
+    padding-right: 3.2rem;
   }
   .cronograma-curso {
     display: flex;
@@ -2848,6 +3024,35 @@ footer {
     background-color: rgba(187, 255, 0, 0.2509803922);
     border-radius: 2rem;
     font-weight: 500;
+  }
+}
+@media (max-width: 320px) {
+  .body-galeria {
+    background-color: white;
+  }
+  .titulo-galeria {
+    background-color: rgba(157, 255, 0, 0.179);
+    border-radius: 10rem;
+  }
+  .titulo-galeria h1 {
+    padding-top: 0.5rem;
+    height: 55px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .main-galeria img {
+    width: 80px;
+    height: 100px;
+  }
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2.2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 

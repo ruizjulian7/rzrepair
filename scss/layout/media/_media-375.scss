@@ -356,7 +356,7 @@
         }
         .info-curso-p{
             padding-top: 0.1rem;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 500;
             width: 100%;
             text-align: center;
@@ -379,10 +379,16 @@
         .cronograma-curso h3{
         justify-content: center;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
         background-color: rgba(1, 183, 255, 0.349);
         border-radius: 10rem;
+        }
+        .box-cronograma p{
+            font-size: 16px;
+        }
+        .box-cronograma li{
+            font-size: 16px;
         }
         .box-cronograma h4{
         background-color: rgba(157, 255, 0, 0.179);
@@ -391,6 +397,7 @@
         font-weight: 600;
         }
         .tools-curso h5{
+            font-family: 'Rajdhani', sans-serif;
             text-align: center;
             padding-right: 10rem;
         }
@@ -401,3 +408,33 @@
             padding-left: 3.5rem;
         }
         }
+
+        @media (max-width:375px){   
+            .body-galeria{
+            background-color: white;
+            }
+            .titulo-galeria{
+            background-color: rgba(157, 255, 0, 0.179);
+            border-radius: 10rem;
+            }
+            .titulo-galeria h1{
+            padding-top: 0.5rem;
+            height: 65px;
+            color: black;
+            text-align: center;
+            font-size: 22px;
+            font-family: 'Rajdhani', sans-serif;
+            }
+            .main-galeria img{
+                width: 100px;
+                height: 130px;
+            }
+            .main-galeria{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding-left: 2rem;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            }
+            }
