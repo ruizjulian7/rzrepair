@@ -9,11 +9,12 @@ body {
 }
 
 header {
-  background-color: #5e6f75;
+  background-color: #4592af;
 }
 
 .navbar {
   background-image: linear-gradient(to top, #2483a6, #2184a8, #1f85aa, #1c85ad, #1986af);
+  font-family: "Rajdhani", sans-serif;
 }
 
 .navbar-brand {
@@ -239,6 +240,36 @@ footer {
   color: #DBFF00;
   font-family: "Michroma", sans-serif;
   padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.form h5 {
+  color: #DBFF00;
+  padding-left: 16.5rem;
+}
+
+.form h4 {
+  color: #DBFF00;
+  padding-left: 24rem;
+}
+
+.form__container {
+  padding-left: 33rem;
+  height: 200px;
+  padding-bottom: 40rem;
+}
+
+.form__input {
+  border-style: solid;
+  font-family: "Play", sans-serif;
+  width: 800px;
+  margin: 1rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+.form__cta {
+  font-family: "Play", sans-serif;
 }
 
 .tracking-in-expand {
@@ -413,17 +444,17 @@ footer {
 }
 
 .servicio-box {
-  height: 240px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   margin: 1rem 0rem 2rem 1rem;
   box-shadow: 0px 0px 10px rgb(209, 209, 209);
 }
 
 .servicio-box:hover {
-  height: 240px;
-  width: 200px;
-  margin: 0rem 0rem 2rem 1rem;
-  box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
+  height: 400px;
+  width: 300px;
+  margin: 1rem 0rem 2rem 1rem;
+  box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
 }
 
 .garantia-servicio p {
@@ -475,40 +506,27 @@ footer {
   }
 }
 .nosotros-subtitulo {
-  padding-top: 2rem;
-}
-
-.nosotros-subtitulo h5 {
-  font-size: 35px;
+  padding-top: 5rem;
   text-align: center;
-  width: 400px;
-  color: rgb(0, 0, 0);
-  border-style: solid;
-  border-color: #bbff00;
-  margin: 1rem 1rem 1rem 48rem;
-  border-radius: 10rem;
   font-family: "Rajdhani", sans-serif;
 }
 
+.nosotros-subtitulo h5 {
+  font-size: 50px;
+}
+
 .nosotros-subtitulo h5:hover {
-  font-size: 35px;
-  width: 400px;
-  margin: 1rem 1rem 1rem 48rem;
+  font-size: 50px;
   color: rgb(255, 111, 0);
-  border-style: solid;
-  border-color: #bbff00;
-  border-radius: 10rem;
   font-family: "Rajdhani", sans-serif;
 }
 
 .nosotros-subtitulo p {
   text-align: center;
-  height: 12rem;
-  width: 45rem;
+  width: 50%;
+  margin-left: 30rem;
   font-size: 20px;
-  padding-top: 0.5rem;
-  margin: 0rem 1rem 1rem 37rem;
-  font-family: "Rajdhani", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nosotros-subtitulo h4 {
@@ -517,42 +535,45 @@ footer {
 }
 
 .section-curso {
-  padding-top: 1rem;
+  padding-top: 0rem;
 }
 
 .section-curso p {
   text-align: center;
   font-family: "Rajdhani", sans-serif;
-  font-size: 30px;
-  background-color: rgba(157, 255, 0, 0.179);
+  font-size: 25px;
+  background-color: rgba(157, 255, 0, 0.275);
   border-radius: 10rem;
 }
 
 .curso-2023 {
+  background-image: url("../assets/img/fondo-curso.png");
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
 }
 
 .curso-1 h4 {
   padding-top: 6rem;
   font-size: 70px;
+  color: white;
   font-family: "Rajdhani", sans-serif;
-  text-shadow: 2px 2px 1px rgb(255, 68, 0);
+  text-shadow: 2px 2px 1px rgb(255, 145, 0);
 }
 
 .curso-2 h4 {
   padding-top: 6rem;
   font-size: 70px;
+  color: white;
   font-family: "Rajdhani", sans-serif;
-  text-shadow: 2px 2px 1px rgb(255, 68, 0);
+  text-shadow: 2px 2px 1px rgb(255, 145, 0);
 }
 
 .intro-crono h3 {
   font-family: "Rajdhani", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  background-color: rgba(157, 255, 0, 0.179);
+  background-color: rgba(157, 255, 0, 0.275);
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10rem;
@@ -565,7 +586,7 @@ footer {
 }
 
 .info-curso h4 {
-  font-size: 35px;
+  font-size: 25px;
   background-color: rgba(1, 183, 255, 0.349);
   border-radius: 10rem;
   font-family: "Rajdhani", sans-serif;
@@ -579,7 +600,7 @@ footer {
 .info-curso-p {
   padding-top: 3rem;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   width: 600px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -607,7 +628,7 @@ footer {
 }
 
 .box-cronograma h4 {
-  background-color: rgba(157, 255, 0, 0.179);
+  background-color: rgba(157, 255, 0, 0.275);
   text-align: center;
   border-radius: 10rem;
   font-weight: 600;
@@ -664,11 +685,35 @@ footer {
     height: 50px;
     text-align: center;
     display: grid;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     color: #DBFF00;
     font-family: "Michroma", sans-serif;
-    padding-top: 45px;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-left: 16.5rem;
+  }
+  .form h4 {
+    color: #DBFF00;
+    padding-left: 24rem;
+  }
+  .form__container {
+    padding-left: 19rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 800px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
   }
   .btn {
     background-color: #4592af;
@@ -715,10 +760,16 @@ footer {
     align-items: center;
   }
   .servicio-box {
-    height: 220px;
-    width: 200px;
-    margin: 1rem 0rem 3rem 22rem;
-    box-shadow: 5px 25px 1px rgb(0, 0, 0);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 18rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
+  }
+  .servicio-box:hover {
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 18rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
 }
 @media (max-width: 1440px) {
@@ -726,8 +777,9 @@ footer {
     background-color: white;
   }
   .nosotros-subtitulo-sec {
+    width: 100%;
     height: 400px;
-    background-image: url("../assets/img/img-1440px/fondo-h1-3-1440.png");
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -759,59 +811,64 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 35px;
+    padding-top: 5rem;
     text-align: center;
-    width: 400px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 33rem;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .nosotros-subtitulo h5 {
+    font-size: 50px;
+  }
   .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 400px;
-    margin: 1rem 1rem 1rem 33rem;
+    font-size: 50px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 12rem;
-    width: 40rem;
+    width: 50%;
+    margin-left: 23rem;
     font-size: 20px;
-    padding-top: 0.5rem;
-    margin: 0rem 1rem 1rem 26rem;
-    font-family: "Rajdhani", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nosotros-subtitulo h4 {
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
-    font-size: 30px;
-    background-color: rgba(157, 255, 0, 0.179);
+    font-size: 25px;
+    background-color: rgba(157, 255, 0, 0.275);
     border-radius: 10rem;
   }
   .curso-2023 {
-    padding-right: 3rem;
+    background-image: url("../assets/img/fondo-curso.png");
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
   }
-  .curso-2023 img {
-    background-position: center;
-  }
-  .curso-2023 h3 {
+  .curso-1 h4 {
+    padding-top: 6rem;
+    font-size: 70px;
+    color: white;
     font-family: "Rajdhani", sans-serif;
-    font-size: 30px;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+  }
+  .curso-2 h4 {
+    padding-top: 6rem;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+  }
+  .intro-crono h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 25px;
     text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10rem;
@@ -820,18 +877,21 @@ footer {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding-top: 0.5rem;
   }
   .info-curso h4 {
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .iphone-desarmado {
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
   .info-curso-p {
     padding-top: 3rem;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     width: 600px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -855,13 +915,19 @@ footer {
     border-radius: 10rem;
   }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
-  .tools-img {
-    padding-top: 1rem;
+  .tools-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .tools-curso h5 {
+    text-align: center;
+    font-size: 25px;
   }
 }
 @media (max-width: 1440px) {
@@ -922,9 +988,16 @@ footer {
     align-items: center;
   }
   .servicio-box {
-    height: 220px;
-    width: 200px;
-    margin: 1rem 0rem 3rem 14rem;
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 9rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
+  }
+  .servicio-box:hover {
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 9rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
 }
 @media (max-width: 1024px) {
@@ -934,7 +1007,7 @@ footer {
   .nosotros-subtitulo-sec {
     width: 100%;
     height: 400px;
-    background-image: url("../assets/img/img-1024px/fondo-h1-3-1024.png");
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -966,107 +1039,97 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 35px;
+    padding-top: 5rem;
     text-align: center;
-    width: 400px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 20rem;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .nosotros-subtitulo h5 {
+    font-size: 50px;
+  }
   .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 400px;
-    margin: 1rem 1rem 1rem 20rem;
+    font-size: 50px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 12rem;
-    width: 45rem;
+    width: 70%;
+    margin-left: 10rem;
     font-size: 20px;
-    padding-top: 0.5rem;
-    margin: 0rem 1rem 1rem 10rem;
-    font-family: "Rajdhani", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .nosotros-subtitulo h4 {
     padding-top: 1rem;
     color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
-    font-size: 30px;
-    background-color: rgba(157, 255, 0, 0.179);
+    font-size: 25px;
+    background-color: rgba(157, 255, 0, 0.275);
     border-radius: 10rem;
   }
   .curso-2023 {
+    background-image: url("../assets/img/fondo-curso.png");
     display: flex;
     justify-content: center;
+    gap: 6rem;
+  }
+  .curso-1 h4 {
+    padding-top: 6rem;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+  }
+  .curso-2 h4 {
+    padding-top: 6rem;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+  }
+  .intro-crono h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(157, 255, 0, 0.275);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10rem;
+  }
+  .info-curso {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .info-curso h4 {
+    font-size: 25px;
+    background-color: rgba(1, 183, 255, 0.349);
+    border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
+  }
+  .iphone-desarmado {
+    padding-top: 6rem;
+    padding-left: 0rem;
+  }
+  .info-curso-p {
+    padding-top: 3rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cronograma-curso {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
     gap: 5rem;
   }
-  .curso-1 h4 {
-    padding-top: 6rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
-  }
-  .curso-2 h4 {
-    padding-top: 6rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
-  }
-  .intro-crono h3 {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10rem;
-  }
-  .info-curso {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 0.1rem;
-  }
-  .iphone-desarmado {
-    margin: 10px 10px 20px 10px;
-  }
-  .info-curso h4 {
-    font-size: 35px;
-    background-color: rgba(1, 183, 255, 0.349);
-    border-radius: 10rem;
-    font-family: "Rajdhani", sans-serif;
-  }
-  .info-curso-p {
-    padding-top: 1rem;
-    font-size: 20px;
-    font-weight: 500;
-    width: 600px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .cronograma-curso {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    gap: 2rem;
-  }
   .box-cronograma {
     width: 600px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1080,204 +1143,19 @@ footer {
     border-radius: 10rem;
   }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
-  .tools-img {
-    padding-top: 1rem;
-  }
-}
-@media (max-width: 1024px) {
-  .fondo-body-nosotros {
-    background-color: white;
-  }
-  .nosotros-subtitulo-sec {
-    width: 100%;
-    height: 400px;
-    background-image: url("../assets/img/img-1024px/fondo-h1-3-1024.png");
-    background-position: center;
-  }
-  .tracking-in-expand {
-    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  }
-  @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  .nosotros-subtitulo {
-    padding-top: 2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 35px;
-    text-align: center;
-    width: 400px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 20rem;
-    border-radius: 10rem;
-  }
-  .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 400px;
-    margin: 1rem 1rem 1rem 20rem;
-    color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
-  }
-  .nosotros-subtitulo p {
-    text-align: center;
-    height: 25rem;
-    width: 25rem;
-    font-size: 17px;
-    padding-top: 0.5rem;
-    margin: 0rem 1rem 1rem 20rem;
-    font-family: "Rajdhani", sans-serif;
-  }
-  .nosotros-subtitulo h4 {
-    padding-top: 1rem;
-    color: rgb(0, 0, 0);
-  }
-  .section-curso {
-    padding-top: 1rem;
-  }
-  .section-curso p {
-    text-align: center;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 25px;
-    background-color: rgba(157, 255, 0, 0.179);
-    border-radius: 10rem;
-  }
-  .curso-2023 {
+  .tools-curso {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 2rem;
-  }
-  .curso-1 h4 {
-    padding-top: 6rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
-  }
-  .curso-2 h4 {
-    padding-top: 6rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
-  }
-  .intro-crono h3 {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 25px;
-    text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10rem;
-  }
-  .info-curso {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
-    padding-top: 1rem;
-  }
-  .info-curso h4 {
-    font-size: 30px;
-    background-color: rgba(1, 183, 255, 0.349);
-    border-radius: 10rem;
-    font-family: "Rajdhani", sans-serif;
-  }
-  .info-curso-p {
-    padding-top: 0.1rem;
-    font-size: 20px;
-    font-weight: 500;
-    width: 100%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .iphone-desarmado {
-    padding-top: 0.1rem;
-    padding-left: 22rem;
-  }
-  .cronograma-curso {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 20px;
-    gap: 0.1rem;
-  }
-  .box-cronograma {
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .cronograma-curso h3 {
-    justify-content: center;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 35px;
-    text-align: center;
-    background-color: rgba(1, 183, 255, 0.349);
-    border-radius: 10rem;
-  }
-  .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
-    text-align: center;
-    border-radius: 10rem;
-    font-weight: 600;
   }
   .tools-curso h5 {
     text-align: center;
-    padding-left: 5rem;
-  }
-  .tools-curso {
-    display: grid;
-    grid-template-columns: repeat(12, 50px);
-    grid-template-rows: repeat(8, 50px);
-    padding-bottom: 5rem;
-  }
-  .tools-img {
-    grid-column-start: 3;
-    grid-row-start: 1;
-  }
-  .tools-img-2 {
-    grid-column-start: 8;
-    grid-row-start: 1;
-  }
-  .tools-img-3 {
-    grid-column-start: 2;
-    grid-row-start: 5;
-  }
-  .tools-img-4 {
-    grid-column-start: 6;
-    grid-row-start: 5;
-  }
-  .tools-img-5 {
-    grid-column-start: 10;
-    grid-row-start: 5;
-    padding-bottom: 1rem;
+    font-size: 25px;
   }
 }
 @media (max-width: 1024px) {
@@ -1303,6 +1181,62 @@ footer {
     padding-left: 3.5rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .body-contacto {
+    background-image: url("../assets/img/fondo-planeta.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .body-contacto h1 {
+    background-color: transparent;
+    text-shadow: 1px 1px 1px black;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    font-size: 40px;
+    font-weight: 600;
+    color: #DBFF00;
+    font-family: "Michroma", sans-serif;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-left: 16.5rem;
+  }
+  .form h4 {
+    color: #DBFF00;
+    padding-left: 24rem;
+  }
+  .form__container {
+    padding-left: 6rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 800px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
+  }
+  .btn {
+    background-color: #4592af;
+  }
+  .datos-contacto {
+    padding: 60px 200px 60px 200px;
+  }
+  .form-label {
+    color: #bbff00;
+  }
+  .form-check-label {
+    color: #bbff00;
   }
 }
 @media (max-width: 768px) {
@@ -1453,11 +1387,53 @@ footer {
     font-family: "Michroma", sans-serif;
     padding-top: 45px;
   }
+  .body-contacto {
+    background-image: url("../assets/img/fondo-planeta.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .body-contacto h1 {
+    background-color: transparent;
+    text-shadow: 1px 1px 1px black;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    font-size: 40px;
+    font-weight: 600;
+    color: #DBFF00;
+    font-family: "Michroma", sans-serif;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-left: 10.5rem;
+  }
+  .form h4 {
+    color: #DBFF00;
+    padding-left: 18rem;
+  }
+  .form__container {
+    padding-left: 4rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 600px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
+  }
   .btn {
     background-color: #4592af;
   }
   .datos-contacto {
-    padding: 60px 60px 60px 60px;
+    padding: 60px 200px 60px 200px;
   }
   .form-label {
     color: #bbff00;
@@ -1503,16 +1479,16 @@ footer {
     justify-content: center;
   }
   .servicio-box {
-    height: 240px;
-    width: 200px;
-    margin: 1rem 0rem 0.2rem 1rem;
-    box-shadow: 0px 0px 10px rgb(209, 209, 209);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 0rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
   }
   .servicio-box:hover {
-    height: 240px;
-    width: 200px;
-    margin: 0rem 0rem 1rem 1rem;
-    box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 1rem 0rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
   .garantia-servicio p {
     font-size: 20px;
@@ -1528,8 +1504,8 @@ footer {
   }
   .nosotros-subtitulo-sec {
     width: 100%;
-    height: 300px;
-    background-image: url("../assets/img/img-768px/fondo-h1-3-768.png");
+    height: 400px;
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -1561,74 +1537,64 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 30px;
+    padding-top: 3rem;
     text-align: center;
-    width: 400px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 11.5rem;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .nosotros-subtitulo h5 {
+    font-size: 50px;
+  }
   .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 400px;
-    margin: 1rem 1rem 1rem 11.5rem;
+    font-size: 50px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 25rem;
-    width: 25rem;
-    font-size: 17px;
-    padding-top: 0.1rem;
-    margin: 0rem 1rem 1rem 11.5rem;
-    font-family: "Rajdhani", sans-serif;
+    width: 80%;
+    margin-left: 5rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .nosotros-subtitulo h4 {
     padding-top: 1rem;
     color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     border-radius: 10rem;
   }
   .curso-2023 {
+    background-image: url("../assets/img/fondo-curso.png");
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 6rem;
   }
   .curso-1 h4 {
     padding-top: 6rem;
     font-size: 70px;
+    color: white;
     font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
   }
   .curso-2 h4 {
     padding-top: 6rem;
     font-size: 70px;
+    color: white;
     font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
   }
   .intro-crono h3 {
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
     text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10rem;
@@ -1636,36 +1602,34 @@ footer {
   .info-curso {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
-    padding-top: 1rem;
+    gap: 2rem;
   }
   .info-curso h4 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .iphone-desarmado {
+    padding-top: 6rem;
+    padding-left: 0rem;
+  }
   .info-curso-p {
-    padding-top: 0.1rem;
+    padding-top: 3rem;
     font-size: 20px;
-    font-weight: 500;
-    width: 100%;
+    font-weight: 300;
+    width: 300px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .iphone-desarmado {
-    padding-left: 14rem;
-  }
   .cronograma-curso {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    gap: 0.1rem;
+    gap: 7rem;
   }
   .box-cronograma {
-    width: 100%;
+    width: 300px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .cronograma-curso h3 {
@@ -1677,41 +1641,19 @@ footer {
     border-radius: 10rem;
   }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
+  .tools-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
   .tools-curso h5 {
     text-align: center;
-    padding-left: 5rem;
-  }
-  .tools-curso {
-    display: grid;
-    grid-template-columns: repeat(12, 64px);
-    grid-template-rows: repeat(12, 50px);
-    padding-bottom: 5rem;
-  }
-  .tools-img {
-    grid-column-start: 2;
-    grid-row-start: 1;
-  }
-  .tools-img-2 {
-    grid-column-start: 6;
-    grid-row-start: 1;
-  }
-  .tools-img-3 {
-    grid-column-start: 2;
-    grid-row-start: 5;
-  }
-  .tools-img-4 {
-    grid-column-start: 6;
-    grid-row-start: 5;
-  }
-  .tools-img-5 {
-    grid-column-start: 4;
-    grid-row-start: 9;
-    padding-bottom: 1rem;
+    font-size: 25px;
   }
 }
 @media (max-width: 768px) {
@@ -1890,17 +1832,42 @@ footer {
     height: 50px;
     text-align: center;
     display: grid;
+    font-size: 30px;
     font-weight: 600;
-    font-size: 20px;
     color: #DBFF00;
     font-family: "Michroma", sans-serif;
-    padding-top: 35px;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-left: 0.1rem;
+    text-align: center;
+  }
+  .form h4 {
+    color: #DBFF00;
+    padding-left: 10rem;
+  }
+  .form__container {
+    padding-left: 1.2rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 350px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
   }
   .btn {
     background-color: #4592af;
   }
   .datos-contacto {
-    padding: 30px 10px 30px 10px;
+    padding: 60px 200px 60px 200px;
   }
   .form-label {
     color: #bbff00;
@@ -1961,16 +1928,16 @@ footer {
     grid-column-start: 4;
   }
   .servicio-box {
-    height: 240px;
-    width: 200px;
-    margin: 1rem 0rem 0.2rem 1rem;
-    box-shadow: 0px 0px 10px rgb(209, 209, 209);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
   }
   .servicio-box:hover {
-    height: 240px;
-    width: 200px;
-    margin: 0rem 0rem 1rem 1rem;
-    box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
   .garantia-servicio p {
     font-size: 20px;
@@ -1985,9 +1952,9 @@ footer {
     background-color: white;
   }
   .nosotros-subtitulo-sec {
-    width: 425px;
-    height: 300px;
-    background-image: url("../assets/img/img-425px/fondo-h1-3-425.png");
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -2019,127 +1986,110 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 0.2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 35px;
+    padding-top: 1rem;
     text-align: center;
-    width: 425px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 0.1rem;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .nosotros-subtitulo h5 {
+    font-size: 50px;
+  }
   .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 425px;
-    margin: 1rem 1rem 1rem 0.1rem;
+    font-size: 50px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 14rem;
-    width: 22rem;
-    font-size: 15px;
-    padding-top: 0.5rem;
-    padding-left: 2.5rem;
-    margin: 0rem 1rem 1rem 1rem;
-    font-family: "Rajdhani", sans-serif;
+    width: 90%;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .nosotros-subtitulo h4 {
     padding-top: 1rem;
     color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     border-radius: 10rem;
   }
   .curso-2023 {
+    background-image: url("../assets/img/img-425px/fondo-curso-425.png");
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0rem;
   }
   .curso-1 h4 {
-    padding-top: 0.1rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    padding-top: 1rem;
     padding-left: 7rem;
-  }
-  .curso-icon {
-    padding-left: 4rem;
-    height: 200px;
-    width: 200px;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
   }
   .curso-2 h4 {
-    padding-left: 8.5rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     font-size: 70px;
+    color: white;
     font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+    padding-left: 8rem;
+  }
+  .curso-icon {
+    padding-left: 3rem;
   }
   .intro-crono h3 {
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
     text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10rem;
   }
   .info-curso {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 1rem;
-    padding-top: 1rem;
+    justify-content: center;
+    gap: 2rem;
   }
   .info-curso h4 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .iphone-desarmado {
+    padding-top: 0rem;
+    padding-left: 2.5rem;
+  }
   .info-curso-p {
-    padding-top: 0.1rem;
-    font-size: 16px;
-    font-weight: 500;
-    width: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 400px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .iphone-desarmado {
-    padding-left: 2.5rem;
   }
   .cronograma-curso {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    gap: 0.1rem;
+    gap: 7rem;
   }
   .box-cronograma {
-    width: 425px;
+    padding-left: 1.5rem;
+    width: 400px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .box-cronograma p {
-    font-size: 16px;
-  }
-  .box-cronograma li {
-    font-size: 16px;
   }
   .cronograma-curso h3 {
     justify-content: center;
@@ -2150,21 +2100,21 @@ footer {
     border-radius: 10rem;
   }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
-  .tools-curso h5 {
-    text-align: center;
-    padding-right: 10rem;
-    font-family: "Rajdhani", sans-serif;
-  }
   .tools-curso {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 5.5rem;
+    gap: 3rem;
+    padding-left: 5rem;
+  }
+  .tools-curso h5 {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 5rem;
   }
 }
 @media (max-width: 425px) {
@@ -2343,17 +2293,41 @@ footer {
     height: 50px;
     text-align: center;
     display: grid;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     color: #DBFF00;
     font-family: "Michroma", sans-serif;
-    padding-top: 35px;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .form h4 {
+    color: #DBFF00;
+  }
+  .form__container {
+    padding-left: 1.1rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 300px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
   }
   .btn {
     background-color: #4592af;
   }
   .datos-contacto {
-    padding: 30px 10px 30px 10px;
+    padding: 60px 200px 60px 200px;
   }
   .form-label {
     color: #bbff00;
@@ -2395,16 +2369,16 @@ footer {
     gap: 2rem;
   }
   .servicio-box {
-    height: 240px;
-    width: 200px;
-    margin: 1rem 0rem 0.2rem 1rem;
-    box-shadow: 0px 0px 10px rgb(209, 209, 209);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
   }
   .servicio-box:hover {
-    height: 240px;
-    width: 200px;
-    margin: 0rem 0rem 1rem 1rem;
-    box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
   .garantia-servicio p {
     font-size: 20px;
@@ -2419,9 +2393,9 @@ footer {
     background-color: white;
   }
   .nosotros-subtitulo-sec {
-    width: 375px;
-    height: 300px;
-    background-image: url("../assets/img/img-768px/fondo-h1-3-768.png");
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -2453,120 +2427,109 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 0.2rem;
-  }
-  .nosotros-subtitulo h5 {
-    font-size: 35px;
+    padding-top: 1rem;
     text-align: center;
-    width: 375px;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 0.1rem;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .nosotros-subtitulo h5 {
+    font-size: 40px;
+  }
   .nosotros-subtitulo h5:hover {
-    font-size: 35px;
-    width: 375px;
-    margin: 1rem 1rem 1rem 0.1rem;
+    font-size: 40px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 12rem;
-    width: 23rem;
-    font-size: 15px;
-    padding-top: 0.1rem;
-    padding-right: 2rem;
-    margin: 0rem 1rem 1rem 0.1rem;
-    font-family: "Rajdhani", sans-serif;
+    width: 80%;
+    margin-left: 2rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .nosotros-subtitulo h4 {
     padding-top: 1rem;
     color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     border-radius: 10rem;
   }
   .curso-2023 {
+    background-image: url("../assets/img/img-425px/fondo-curso-425.png");
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0rem;
   }
   .curso-1 h4 {
-    padding-top: 0.1rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    padding-top: 1rem;
     padding-left: 5rem;
-  }
-  .curso-icon {
-    padding-left: 2.2rem;
-    height: 200px;
-    width: 200px;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
   }
   .curso-2 h4 {
-    padding-left: 7rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     font-size: 70px;
+    color: white;
     font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+    padding-left: 7rem;
+  }
+  .curso-icon {
+    padding-left: 2.5rem;
   }
   .intro-crono h3 {
     font-family: "Rajdhani", sans-serif;
     font-size: 25px;
     text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10rem;
   }
   .info-curso {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
-    padding-top: 1rem;
   }
   .info-curso h4 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .iphone-desarmado {
+    padding-top: 0rem;
+    padding-left: 1.7rem;
+  }
   .info-curso-p {
-    padding-top: 0.1rem;
-    font-size: 15px;
-    font-weight: 500;
-    width: 100%;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    font-size: 17px;
+    font-weight: 300;
+    width: 350px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .iphone-desarmado {
-    padding-left: 1.1rem;
   }
   .cronograma-curso {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 20px;
-    gap: 0.1rem;
+    font-size: 17px;
+    gap: 7rem;
   }
   .box-cronograma {
-    width: 375px;
+    padding-left: 1.5rem;
+    width: 350px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .cronograma-curso h3 {
@@ -2577,28 +2540,22 @@ footer {
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
   }
-  .box-cronograma p {
-    font-size: 16px;
-  }
-  .box-cronograma li {
-    font-size: 16px;
-  }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
-  .tools-curso h5 {
-    font-family: "Rajdhani", sans-serif;
-    text-align: center;
-    padding-right: 10rem;
-  }
   .tools-curso {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 3.5rem;
+    gap: 2rem;
+    padding-left: 4rem;
+  }
+  .tools-curso h5 {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 4rem;
   }
 }
 @media (max-width: 375px) {
@@ -2769,22 +2726,48 @@ footer {
     width: 100%;
   }
   .body-contacto h1 {
-    background-color: #000000;
+    background-color: transparent;
     text-shadow: 1px 1px 1px black;
     height: 50px;
     text-align: center;
     display: grid;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     color: #DBFF00;
     font-family: "Michroma", sans-serif;
-    padding-top: 35px;
+    padding-top: 50px;
+  }
+  .form h5 {
+    color: #DBFF00;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .form h4 {
+    padding-top: 1rem;
+    padding-left: 6.5rem;
+    color: #DBFF00;
+  }
+  .form__container {
+    padding-left: 1.1rem;
+    height: 200px;
+    padding-bottom: 40rem;
+  }
+  .form__input {
+    border-style: solid;
+    font-family: "Play", sans-serif;
+    width: 250px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+  .form__cta {
+    font-family: "Play", sans-serif;
   }
   .btn {
     background-color: #4592af;
   }
   .datos-contacto {
-    padding: 30px 10px 30px 10px;
+    padding: 60px 200px 60px 200px;
   }
   .form-label {
     color: #bbff00;
@@ -2798,9 +2781,9 @@ footer {
     background-color: white;
   }
   .nosotros-subtitulo-sec {
-    width: 320px;
-    height: 300px;
-    background-image: url("../assets/img/img-320px/fondo-h1-3-320.png");
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/img/fondo-h1-3.png");
     background-position: center;
   }
   .tracking-in-expand {
@@ -2832,91 +2815,77 @@ footer {
     }
   }
   .nosotros-subtitulo {
-    padding-top: 0.5rem;
+    padding-top: 2.5rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo h5 {
-    font-size: 25px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    margin: 1rem 1rem 1rem 0.1rem;
-    border-radius: 10rem;
-    padding-right: 3rem;
+    font-size: 30px;
   }
   .nosotros-subtitulo h5:hover {
-    font-size: 25px;
-    text-align: center;
-    margin: 1rem 1rem 1rem 0.1rem;
+    font-size: 30px;
     color: rgb(255, 111, 0);
-    border-style: solid;
-    border-color: #bbff00;
-    border-radius: 10rem;
+    font-family: "Rajdhani", sans-serif;
   }
   .nosotros-subtitulo p {
     text-align: center;
-    height: 10rem;
-    width: 17rem;
-    font-size: 12px;
-    padding-top: 0.5rem;
-    margin: 0rem 1rem 1rem 1.2rem;
-    font-family: "Rajdhani", sans-serif;
+    width: 90%;
+    margin-left: 1rem;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .nosotros-subtitulo h4 {
     padding-top: 1rem;
     color: rgb(0, 0, 0);
   }
   .section-curso {
-    padding-top: 1rem;
-    width: 320px;
+    padding-top: 0rem;
   }
   .section-curso p {
     text-align: center;
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
-    background-color: rgba(157, 255, 0, 0.179);
-    border-radius: 1rem;
+    background-color: rgba(157, 255, 0, 0.275);
   }
   .curso-2023 {
+    background-image: url("../assets/img/img-425px/fondo-curso-425.png");
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 0.5rem;
+    justify-content: center;
+    gap: 0rem;
   }
   .curso-1 h4 {
-    padding-top: 0.1rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
+    padding-top: 1rem;
     padding-left: 3.5rem;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+  }
+  .curso-2 h4 {
+    padding-top: 1rem;
+    font-size: 70px;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 2px 2px 1px rgb(255, 145, 0);
+    padding-left: 5rem;
   }
   .curso-icon {
     padding-left: 0.5rem;
-    height: 200px;
-    width: 200px;
-  }
-  .curso-2 h4 {
-    padding-left: 5rem;
-    padding-top: 5rem;
-    font-size: 70px;
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 2px 2px 1px rgb(255, 68, 0);
   }
   .intro-crono h3 {
     font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10rem;
   }
   .info-curso {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 0.1rem;
-    padding-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
   }
   .info-curso h4 {
     font-size: 25px;
@@ -2924,54 +2893,54 @@ footer {
     border-radius: 10rem;
     font-family: "Rajdhani", sans-serif;
   }
+  .iphone-desarmado {
+    padding-top: 0rem;
+    padding-left: 0rem;
+  }
   .info-curso-p {
-    padding-top: 0.1rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
     font-size: 15px;
-    font-weight: 500;
-    width: 100%;
+    font-weight: 300;
+    width: 300px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .iphone-desarmado img {
-    height: 225px;
-    width: 300px;
-    padding-left: 1rem;
-    padding-right: 3.2rem;
   }
   .cronograma-curso {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 15px;
-    gap: 0.1rem;
+    gap: 5rem;
   }
   .box-cronograma {
-    width: 320px;
+    padding-left: 1.5rem;
+    width: 300px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .cronograma-curso h3 {
     justify-content: center;
     font-family: "Rajdhani", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     background-color: rgba(1, 183, 255, 0.349);
     border-radius: 10rem;
   }
   .box-cronograma h4 {
-    background-color: rgba(157, 255, 0, 0.179);
+    background-color: rgba(157, 255, 0, 0.275);
     text-align: center;
     border-radius: 10rem;
     font-weight: 600;
   }
-  .tools-curso h5 {
-    text-align: center;
-    padding-right: 10rem;
-  }
   .tools-curso {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 3rem;
     padding-left: 2rem;
+  }
+  .tools-curso h5 {
+    text-align: center;
+    font-size: 20px;
   }
 }
 @media (max-width: 320px) {
@@ -3007,16 +2976,16 @@ footer {
     gap: 2rem;
   }
   .servicio-box {
-    height: 240px;
-    width: 200px;
-    margin: 1rem 0rem 0.2rem 1rem;
-    box-shadow: 0px 0px 10px rgb(209, 209, 209);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
   }
   .servicio-box:hover {
-    height: 240px;
-    width: 200px;
-    margin: 0rem 0rem 1rem 1rem;
-    box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
+    height: 400px;
+    width: 300px;
+    margin: 1rem 0rem 0rem 0rem;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
   }
   .garantia-servicio p {
     font-size: 20px;

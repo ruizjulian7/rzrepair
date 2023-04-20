@@ -14,7 +14,33 @@
     color: #DBFF00;
     font-family: 'Michroma', sans-serif;
     padding-top: 5rem;
+    padding-bottom: 7rem;
 }
+.form h5{
+    color: #DBFF00;
+    padding-left: 16.5rem;
+}
+.form h4{
+    color: #DBFF00;
+    padding-left: 24rem;
+}
+.form__container{
+    padding-left: 33rem;
+    height: 200px;
+    padding-bottom: 40rem;
+}
+.form__input{  
+    border-style: solid;
+    font-family: 'Play', sans-serif;
+    width: 800px;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+.form__cta{
+    font-family: 'Play', sans-serif;
+}
+
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;

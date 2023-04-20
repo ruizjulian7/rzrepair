@@ -134,36 +134,61 @@
 }
 
 @media (max-width:425px){
-    .body-contacto{
-        background-image: url("../assets/img/fondo-planeta.png");
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
-    } 
-    .body-contacto h1{
-        background-color: transparent;
-        text-shadow: 1px 1px 1px black;
-        height: 50px;
-        text-align: center;
-        display: grid;
-        font-weight: 600;
-        font-size: 20px;
+        .body-contacto{
+            background-image: url("../assets/img/fondo-planeta.png");
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        } 
+        .body-contacto h1{
+            background-color: transparent;
+            text-shadow: 1px 1px 1px black;
+            height: 50px;
+            text-align: center;
+            display: grid;
+            font-size: 30px;
+            font-weight: 600;
+            color: #DBFF00;
+            font-family: 'Michroma', sans-serif;
+            padding-top: 50px;
+        } 
+        .form h5{
         color: #DBFF00;
-        font-family: 'Michroma', sans-serif;
-        padding-top: 35px;
-    } 
-    .btn{
-        background-color:#4592af;
-    }
-    .datos-contacto{
-        padding: 30px 10px 30px 10px;
-    }
-    .form-label{
-        color: #bbff00;
-    }
-    .form-check-label{
-        color: #bbff00;
-    }
+        padding-left: 0.1rem;
+        text-align: center;
+        }
+        .form h4{
+            color: #DBFF00;
+            padding-left: 10rem;
+        }
+        .form__container{
+        padding-left: 1.2rem;
+        height: 200px;
+        padding-bottom: 40rem;
+        }
+        .form__input{  
+        border-style: solid;
+        font-family: 'Play', sans-serif;
+        width: 350px;
+        margin: 1rem;
+        height: 3rem;
+        border-radius: 10px;
+        }
+        .form__cta{
+        font-family: 'Play', sans-serif;
+        }
+        .btn{
+            background-color:#4592af;
+        }
+        .datos-contacto{
+            padding: 60px 200px 60px 200px;
+        }
+        .form-label{
+            color: #bbff00;
+        }
+        .form-check-label{
+            color: #bbff00;
+        }
 }
 
 @media (max-width:425px){   
@@ -217,18 +242,18 @@
         .alcatel{
             grid-column-start: 4;
         }
-        .servicio-box{
-            height: 240px;
-            width: 200px;
-            margin: 1rem 0rem 0.2rem 1rem;
-            box-shadow: 0px 0px 10px rgb(209, 209, 209);
+        .servicio-box{ 
+            height: 400px;
+            width: 300px;
+            margin: 1rem 0rem 0rem 0rem;
+            box-shadow: 0px 0px 5px rgb(151, 151, 151);
         }
-        .servicio-box:hover{
-            height: 240px;
-            width: 200px;
-            margin: 0rem 0rem 1rem 1rem;
-            box-shadow: 0px 0px 10px rgba(149, 255, 0, 0.397);
-        }
+        .servicio-box:hover{ 
+        height: 400px;
+        width: 300px;
+        margin: 1rem 0rem 0rem 0rem;
+        box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.397);
+    }
         .garantia-servicio p{
             font-size: 20px;
             text-align: center;
@@ -239,194 +264,177 @@
     }
     
 
-@media (max-width:425px){   
+    @media (max-width:425px){   
         .fondo-body-nosotros{
-            background-color: white;
-        }
-        .nosotros-subtitulo-sec{
-            width: 425px;
-            height: 300px;
-            background-image: url("../assets/img/img-425px/fondo-h1-3-425.png");
-            background-position: center;
-        }
-        .tracking-in-expand {
-            -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-        }
-        @-webkit-keyframes tracking-in-expand {
-            0% {
+        background-color: white;
+    }
+    .nosotros-subtitulo-sec{
+        width: 100%;
+        height: 400px;
+        background-image: url("../assets/img/fondo-h1-3.png");
+        background-position: center;
+    }
+    .tracking-in-expand {
+        -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    @-webkit-keyframes tracking-in-expand {
+        0% {
             letter-spacing: -0.5em;
             opacity: 0;
-            }
-            40% {
+        }
+        40% {
             opacity: 0.6;
-            }
-            100% {
+        }
+        100% {
             opacity: 1;
-            }
+        }
         }
         @keyframes tracking-in-expand {
-            0% {
+        0% {
             letter-spacing: -0.5em;
             opacity: 0;
-            }
-            40% {
+        }
+        40% {
             opacity: 0.6;
-            }
-            100% {
+        }
+        100% {
             opacity: 1;
-            }
         }
-        
-        .nosotros-subtitulo{
-        padding-top: 0.2rem;
         }
-        .nosotros-subtitulo h5{
-            font-size: 35px;
-            text-align: center;
-            width: 425px;
-            color: rgb(0, 0, 0);
-            border-style: solid;
-            border-color:#bbff00;
-            margin: 1rem 1rem 1rem 0.1rem;
-            border-radius: 10rem;
-            font-family: 'Rajdhani', sans-serif;
-        }
-        .nosotros-subtitulo h5:hover{
-            font-size: 35px;
-            width: 425px;
-            margin: 1rem 1rem 1rem 0.1rem;
-            color: rgb(255, 111, 0);
-            border-style: solid;
-            border-color:#bbff00;
-            border-radius: 10rem;
-            font-family: 'Rajdhani', sans-serif;
-        }
-        .nosotros-subtitulo p{
-            text-align: center;
-            height: 14rem;
-            width: 22rem;
-            font-size: 15px;
-            padding-top: 0.5rem;
-            padding-left:2.5rem;
-            margin: 0rem 1rem 1rem 1rem;
-            font-family: 'Rajdhani', sans-serif;
-        }
-        .nosotros-subtitulo h4{
+    
+    .nosotros-subtitulo{
+        padding-top: 1rem;
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .nosotros-subtitulo h5{
+    font-size: 50px;
+    }
+    .nosotros-subtitulo h5:hover{
+        font-size: 50px;
+        color: rgb(255, 111, 0);
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .nosotros-subtitulo p{
+        text-align: center;
+        width: 90%;
+        margin-left: 1rem;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nosotros-subtitulo h4{
         padding-top: 1rem;
         color: rgb(0, 0, 0);
-        }
-        .section-curso{
-        padding-top: 1rem;
-        }
-        .section-curso p{
-            text-align: center;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 25px;
-            background-color: rgba(157, 255, 0, 0.179);
-            border-radius: 10rem;
-        }
-        .curso-2023{
+    }
+    .section-curso{
+        padding-top: 0rem;
+    }
+    .section-curso p{
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 25px;
+        background-color: rgba(157, 255, 0, 0.275);
+        border-radius: 10rem;
+    }
+    .curso-2023{
+        background-image: url("../assets/img/img-425px/fondo-curso-425.png");
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        gap: 1rem;
-        }
-        .curso-1 h4{
-        padding-top: 0.1rem;
+        justify-content: center;
+        gap: 0rem;
+    }
+    .curso-1 h4{
+    padding-top: 1rem;
+    padding-left: 7rem;
+    font-size: 70px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 2px 2px 1px  rgb(255, 145, 0);
+    }
+    .curso-2 h4{
+        padding-top: 1rem;
         font-size: 70px;
+        color: white;
         font-family: 'Rajdhani', sans-serif;
-        text-shadow: 2px 2px 1px rgb(255, 68, 0);   
-        padding-left: 7rem;
-        }
-        .curso-icon{
-            padding-left: 4rem;
-            height: 200px;
-            width: 200px;
-        }
-        .curso-2 h4{
-        padding-left: 8.5rem;
-        padding-top: 5rem;
-        font-size: 70px;
-        font-family: 'Rajdhani', sans-serif;
-        text-shadow: 2px 2px 1px rgb(255, 68, 0);
-        }
-        .intro-crono h3{
+        text-shadow: 2px 2px 1px  rgb(255, 145, 0);
+        padding-left: 8rem;
+    }
+    .curso-icon{
+        padding-left: 3rem;
+    }
+    .intro-crono h3{
         font-family: 'Rajdhani', sans-serif;
         font-size: 25px;
         text-align: center;
-        background-color: rgba(157, 255, 0, 0.179);
+        background-color: rgba(157, 255, 0, 0.275);
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 10rem;
-        }
-        .info-curso{
+    }
+    .info-curso{
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        gap: 1rem;
-        padding-top: 1rem;
-        }
-        .info-curso h4{
-        font-size: 30px;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .info-curso h4{
+        font-size: 25px;
         background-color: rgba(1, 183, 255, 0.349);
         border-radius: 10rem;
         font-family: 'Rajdhani', sans-serif;
-        }
-        .info-curso-p{
-            padding-top: 0.1rem;
-            font-size: 16px;
-            font-weight: 500;
-            width: 100%;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .iphone-desarmado{
-            padding-left: 2.5rem;
-        }
-        .cronograma-curso{
+    }
+    .iphone-desarmado{
+        padding-top: 0rem;
+        padding-left: 2.5rem;
+    }
+    .info-curso-p{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: 20px;
+        font-weight: 300;
+        width: 400px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .cronograma-curso{
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: 20px;
-        gap: 0.1rem;
-        }
-        .box-cronograma{
-            width: 425px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .box-cronograma p{
-            font-size: 16px;
-        }
-        .box-cronograma li{
-            font-size: 16px;
-        }
-        .cronograma-curso h3{
+        gap: 7rem;
+    }
+    .box-cronograma{
+        padding-left: 1.5rem;
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .cronograma-curso h3{
         justify-content: center;
         font-family: 'Rajdhani', sans-serif;
         font-size: 35px;
         text-align: center;
         background-color: rgba(1, 183, 255, 0.349);
         border-radius: 10rem;
-        }
-        .box-cronograma h4{
-        background-color: rgba(157, 255, 0, 0.179);
+}
+    .box-cronograma h4{
+        background-color: rgba(157, 255, 0, 0.275);
         text-align: center;
         border-radius: 10rem;
         font-weight: 600;
-        }
-        .tools-curso h5{
-            text-align: center;
-            padding-right: 10rem;
-            font-family: 'Rajdhani', sans-serif;
-        }
-        .tools-curso{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 5.5rem;
-        }
-        }
+    }
+    .tools-curso{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-left: 5rem;
+    }
+    .tools-curso h5{
+        text-align: center;
+        font-size: 25px;
+        padding-right: 5rem;
+    }
+    }
         
         @media (max-width:425px){   
             .body-galeria{
