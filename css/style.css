@@ -17,6 +17,11 @@ header {
   font-family: "Rajdhani", sans-serif;
 }
 
+.instagram-icon {
+  height: 50px;
+  width: 50px;
+}
+
 .navbar-brand {
   font-weight: 500;
 }
