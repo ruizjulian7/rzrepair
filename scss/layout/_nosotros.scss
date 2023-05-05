@@ -2,6 +2,41 @@
 .fondo-body-nosotros{
     background-color: white;
 }
+.whatsapp-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+  animation: bounce 1s infinite alternate;
+}
+
+.whatsapp-btn i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 .nosotros-subtitulo-sec{
     width: 100%;
     height: 400px;
