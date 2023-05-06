@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Orbitron&family=Russo+One&family=Sarpanch:wght@700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -109,9 +110,8 @@ main h1 {
   padding-top: 0.5rem;
   color: #bbff00;
   text-align: center;
-  font-size: 60px;
-  font-family: "Michroma", sans-serif;
-  text-shadow: 3px 3px 1px #0092cb;
+  font-size: 70px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .fondo-index {
@@ -1441,7 +1441,7 @@ footer a {
     color: #bbff00;
     text-align: center;
     font-size: 50px;
-    font-family: "Michroma", sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
   .fondo-index {
     background-image: url("../assets/img/fondo-grande.png");
@@ -1887,7 +1887,7 @@ footer a {
     color: #bbff00;
     text-align: center;
     font-size: 40px;
-    font-family: "Michroma", sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
   .fondo-index {
     width: 100%;
@@ -2348,7 +2348,7 @@ footer a {
     color: #bbff00;
     text-align: center;
     font-size: 40px;
-    font-family: "Michroma", sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
   .fondo-index {
     width: 100%;
@@ -2789,7 +2789,7 @@ footer a {
     color: #bbff00;
     text-align: center;
     font-size: 40px;
-    font-family: "Michroma", sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
   .fondo-index {
     width: 100%;
